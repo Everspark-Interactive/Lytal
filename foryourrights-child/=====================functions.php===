@@ -1,0 +1,104 @@
+<?php
+
+/*
+* Add your own functions here. You can also copy some of the theme functions into this file. 
+* Wordpress will use those functions instead of the original functions then.
+*/
+
+// Disable support for comments and trackbacks in post types
+function df_disable_comments_post_types_support() {
+  $post_types = get_post_types();
+  foreach ($post_types as $post_type) {
+    if(post_type_supports($post_type, 'comments')) {
+      remove_post_type_support($post_type, 'comments');
+      remove_post_type_support($post_type, 'trackbacks');
+    }
+  }
+}
+add_action('admin_init', 'df_disable_comments_post_types_support');
+
+// Close comments on the front-end
+function df_disable_comments_status() {
+  return false;
+}
+add_filter('comments_open', 'df_disable_comments_status', 20, 2);
+add_filter('pings_open', 'df_disable_comments_status', 20, 2);
+
+// Hide existing comments
+function df_disable_comments_hide_existing_comments($comments) {
+  $comments = array();
+  return $comments;
+}
+add_filter('comments_array', 'df_disable_comments_hide_existing_comments', 10, 2);
+
+remove_action ('wp_head', 'wp_site_icon', 99);
+
+
+function add_theme_scripts() {
+  wp_register_style("practise-area", get_stylesheet_directory_uri() . "/css/practise-area.css");
+  wp_enqueue_style('practise-area');
+  wp_register_style("custom", get_stylesheet_directory_uri() . "/css/custom.css");
+  wp_enqueue_style('custom');
+  wp_enqueue_style('slick-style', get_stylesheet_directory_uri() . '/css/slick.css');
+  wp_enqueue_script('slick-js', get_stylesheet_directory_uri() . '/js/slick.min.js');
+  wp_enqueue_script('frontend-js', get_stylesheet_directory_uri() . '/js/frontend.js');
+}
+add_action( 'wp_enqueue_scripts', 'add_theme_scripts' , 999 );
+
+
+
+function ly_testimonial_carousel($atts, $content = null)
+{
+    
+    $output = "";
+    $output .= '<div class="lazy nz-testimonial-carousel">';
+        $args = array(
+            'post_type' => 'reviews',
+            'post_status' => 'publish',
+            'posts_per_page' => 10,
+      'post__not_in' => array(6440,6430,6420), 
+            'orderby' => 'DATE',
+            'order'   => 'ASC',
+        );
+        
+        $loop = new WP_Query($args);
+
+        if ( $loop->have_posts() ) :
+          while ($loop->have_posts()) : $loop->the_post();
+            $output .= '<div class="testimonial-wrapper">';
+  
+                $output .= '<div class="reviewDesc">'.do_shortcode('[acf field="review_content"]').'</div>';
+                $output .= '<a class="testimonial_read_more" href="/reviews/">Read More</a>';
+                $output .= '</div>';
+          endwhile; else:
+              $output .= '<p>Sorry, there are no reviews to display.</p>';
+        endif;
+        wp_reset_postdata();
+        $output .= '</div>';
+        return $output;
+}
+add_shortcode('testimonial_carousel', 'ly_testimonial_carousel');
+
+add_shortcode( 'faqs', 'getsubfaq_fun' );
+function getsubfaq_fun( $atts ) {
+    $pagelist = wp_list_pages( array(
+        'title_li'    => '',
+        'child_of'    => $atts['pageid'],
+        'echo' => false,
+        'sort_column' => 'ID',
+     'sort_order' => 'desc'
+        
+    ) );
+  
+  return $pagelist;
+}
+
+
+
+add_shortcode( 'elder_abuse_video', 'elder_abuse_video_func' );
+function elder_abuse_video_func() {
+  if ( wp_is_mobile() ) { } else{ $frame = '<iframe width="560" height="315" src="https://www.youtube.com/embed/o7NvKXxPpAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+  return $frame; }
+    
+
+} ?>

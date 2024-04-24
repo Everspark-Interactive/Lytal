@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsblack_italic';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-blackitalic-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsbold_italic';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-bolditalic-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsextrabold_italic';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-extrabolditalic-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsextralight';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-extralight-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsextralight_italic';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-extralightitalic-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsitalic';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-italic-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinslight';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinslight_italic';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-lightitalic-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsmedium_italic';
+    src: url('/wp-content/themes/foryourrights-child/fonts/poppins-mediumitalic-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/foryourrights-child/fonts/poppins-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.practice-area-title h3, .practice-area-title h2{font-size: 36px !important;color: #42744e !important;font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;font-weight: 700;text-transform: none !important;
+    letter-spacing: unset !important;}
+.practice-area-title h6{font-size: 24px !important;color: #42744e !important;font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;font-weight: 700;}
+.practise_area_container .banner-section-practice{padding: 60px 0px !important;}
+.practise_area_container .banner-section-left-col h1{font-size: 48px;color: #fff !important;text-transform: none !important;font-weight: 700 !important;letter-spacing: -1px !important;}
+.page-template-practice-area .practise_area_container .banner-section-left-col p{margin: -20px 0px 0px 0px !important;font-size: 18px !important;font-family: 'poppinsregular' !important;color: #fff !important;}
+.recent-settlements-section .template-page.content{background-color: #fff;padding:0px 0px 45px 0px!important;margin-top: 30px;position: relative;box-shadow: 0px 0px 30px #0000004f;}
+.recent-settlements-section h2{font-style:normal;font-size: 48px !important;color: #ab8e2c  !important;font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;text-transform: none !important;font-weight: 700 !important;letter-spacing: -1px !important;}
+.recent-settlements-section .slide-entry-title.entry-title{text-align: center !important;font-size: 36px;font-family: 'poppinsregular'!important;color: #004812 !important;font-weight: 100 !important;}
+.recent-settlements-section .recent-settlements-text{font-size: 16px;color: #666666 !important;padding: 0px 45px 35px !important;line-height: 20px;font-family: 'poppinsregular';}
+.recent-settlements-section .recent-settlements-read-more a{color: #b7900b !important;padding: 5px 40px;display: inline-block;border: 1px solid #f6eac6;}
+.recent-settlements-section .recent-settlement-img .avia-image-container-inner{position: absolute;top: -45px;}
+.nursing-home-claim-wrapper .nursing-home-claim-left h3,.free-case-form-left-col h3, .nursing-home-claim-wrapper .nursing-home-claim-left h2,.free-case-form-left-col h2, .p-h2 h2{font-size: 36px !important;color: #42744e !important;font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;font-weight: 700 !important;
+    letter-spacing: unset !important;
+    text-transform: unset !important;}
+.legal-claim-col h6{font-size: 24px !important;color: #376e85 !important;font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;font-weight: 700;}
+.nursing-home-claim-wrapper .nursing-home-claim-left p{font-size: 16px !important;color: #666666 !important;font-family: 'poppinsregular' !important;line-height: 20px;margin-bottom: 20px;}
+.nursing-home-claim-wrapper .nursing-home-claim-left p strong{    font-family: 'poppinsbold'; }
+.nursing-home-claim-wrapper .nursing-home-claim-left .av_textblock_section{margin-top: -30px;}
+.nursing-home-claim-right .av_textblock_section{margin-top: -50px;background: #004812 url(/wp-content/themes/foryourrights-child/images/common-types.png) repeat-y left !important;padding: 25px 25px 25px 150px;}
+.nursing-home-claim-right .av_textblock_section .nursing-type-col ul{columns: 2;-webkit-columns: 2;-moz-columns: 2;list-style: none;}
+.nursing-home-claim-right .av_textblock_section .nursing-type-col p{font-size: 16px !important;color: #f6eac6 !important;font-family: 'poppinsregular'!important;line-height: 20px;margin-bottom: 20px;margin-top: 10px;}
+.nursing-home-claim-right .av_textblock_section .nursing-type-col ul li{font-weight: 600;font-size: 16px !important;color: #f6eac6 !important;font-family: 'poppinsregular'!important;}
+.nursing-home-claim-right .av_textblock_section .nursing-type-col ul li a{font-weight: 600;font-size: 16px !important;color: #f6eac6 !important;font-family: 'poppinsregular'!important;line-height: 20px}
+.nursing-home-claim-right .av_textblock_section .nursing-type-col ul li:before{content: '';background-image: url(/wp-content/themes/foryourrights-child/images/trainagle.png);width: 20px;height: 20px;position: absolute;background-repeat: no-repeat;left: -20px;top: 8px;}
+.nursing-home-claim-right .av_textblock_section .nursing-type-col ul li,.nursing-home-content .nursing-home-right-part ul li{position: relative;}
+ul.practice-area-list{list-style: none;}
+ul.practice-area-list li{font-weight: 600;font-size: 16px !important;color: #666666 !important;font-family: 'poppinsregular'!important;line-height: 20px}
+ul.practice-area-list li:before{content: '';background-image: url(/wp-content/themes/foryourrights-child/images/trainagle.png);width: 20px;height: 20px;position: absolute;background-repeat: no-repeat;left: -20px;top: 5px;}
+ul.practice-area-list li{position: relative;}
+.nursing-home-content .template-page.content{background-color: #fff;padding: 30px 0px;box-shadow: 0px 0px 30px #0000004f;}
+.nursing-home-content .template-page.content .entry-content-wrapper{padding: 0px 70px;}
+.nursing-home-content .nursing-home-left-part p,.nursing-home-right-part p{font-size: 18px;color: #666666 !important;font-family: 'poppinsregular' !important;font-weight: 300;}
+.nursing-home-img{position: absolute;left: -35px;top: 60px;}
+.nursing-home-content .nursing-home-right-part ul li a{font-weight: 600;font-size: 16px !important;color: #666666 !important;font-family: 'poppinsregular' !important;line-height: 20px}
+.nursing-home-content .nursing-home-right-part ul li{font-weight: 600;font-size: 16px !important;color: #666666 !important;font-family: 'poppinsregular' !important;}
+.nursing-home-content .nursing-home-right-part ul{list-style: none;}
+.nursing-home-content .nursing-home-right-part ul li:before{content: '';background-image: url(/wp-content/themes/foryourrights-child/images/arrow.png);width: 15px;height: 15px;position: absolute;background-repeat: no-repeat;left: -15px;top: 10px;}
+.legal-claim-col h3, .legal-claim-col h2{font-size: 36px !important;color: #42744f !important;font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;font-weight: 700;margin-bottom: 25px !important;letter-spacing: unset !important;
+    text-transform: unset !important;}
+.legal-claim-col p,.legal-claim-wrapper-section .full-section-content p,.full-section-content p{font-size: 16px !important;color: #666666 !important;font-family: 'poppinsregular' !important;line-height: 24px;margin-bottom: 20px;}
+.faq-section-wrapper .template-page.content{padding: 110px;}
+.faq-section-wrapper .entry-content-wrapper{background-color: #fff;border: 1px solid #b7ad95;padding: 40px 30px !important;}
+.faq-section-wrapper h3, .faq-section-wrapper h2{font-size: 24px;color: #ab8e2c !important;font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;font-weight: 600 !important;}
+.faq-section-wrapper h5{font-size: 14px;color: #42744f !important;font-family: 'poppinsregular' !important;font-weight: 600 !important;}
+.faq-section-wrapper p{font-size: 14px;font-family: 'poppinsregular' !important;color: #888888;line-height: 18px;margin-top: 5px;}
+.faq-section-wrapper p a.read-more{font-size: 14px;font-family: 'poppinsregular' !important;color: #ab8e2c;display: inline-block;margin-top: 20px;position: relative;}
+.faq-section-wrapper p a.read-more:after{content: '';background-image: url(/wp-content/themes/foryourrights-child/images/arrow.png);background-repeat: no-repeat;width: 15px;height: 15px;position: absolute;top: 2px;right: -20px;}
+.gform_wrapper .validation_message{display: none}
+.free-case-form-col .gform_wrapper li.gfield.gfield_error{background-color: transparent !important;border: none;}
+.gform_wrapper div.validation_error{display: none}
+.form-section-practice .free-case-form-col .gform_wrapper .gform_fields  li.gfield.gfield_error .ginput_container input[type="text"], .form-section-practice .free-case-form-col .gform_wrapper .gform_fields  li.gfield.gfield_error .ginput_container .textarea{border-color: #790000 !important;}
+.free-case-form-col .gform_button.button:hover{background-color: #dbb00e !important; color: #004812 !important; }
+.right-menu-section ul.submenu{display: block !important;opacity: 0 !important;visibility: hidden !important;}
+.video-section-wrapper .msg-now-box .msg-now-btn a:hover,.recent-settlements-section .recent-settlements-read-more a:hover{background-color: #dbb00e;text-decoration: none; color: #004812;}
+.recent-settlements-section .recent-settlements-read-more a:hover{color: #fff !important;}
+.nursing-home-claim-right .av_textblock_section .nursing-type-col ul li a:hover, .nursing-home-content .nursing-home-right-part ul li a:hover{color: #ab8e2c !important;text-decoration: none;}
+.practice-area-video-title{position: absolute;bottom: 50px;z-index: 9999;}
+.practice-area-video-title p{font-family: 'poppinsregular';padding: 0px 40px;color: #b7900b;}
+.legal-claim-wrapper-section .special-heading-border{display: none;}
+.practice-area-map img{width: 100%;}
+.page-template-practice-area .menu-item.dropdown_ul_available:after{content: '';background-image: url(/wp-content/themes/foryourrights-child/images/arrow.png);background-repeat: no-repeat;width: 15px;height: 15px;position: absolute;top: 29px;right: -1px;transform: rotate(90deg);}
+#av_section_6 .template-page.content .post-entry.zksect1 .entry-content-wrapper{
+	    display: flex;
+    align-items: center;
+}
+.nursing-home-content .nursing-home-right-part ul{
+	margin-bottom:0;
+}
+.nursing-home-claim-right .av_textblock_section .nursing-type-col p strong{
+	color:#f6eac6 !important;    font-family: 'poppinsbold';
+}
+.page-template-practice-area .practise_area_container .banner-section-left-col p strong{
+	    color: #fff !important; font-family: 'poppinsbold';
+}
+.form-section-practice .av_textblock_section p strong{
+	font-family: 'poppinsbold';
+}
+.legal-claim-col p strong, .legal-claim-wrapper-section .full-section-content p strong, .full-section-content p strong{
+	font-family: 'poppinsbold';
+}
+.page-template-practice-area .practise_area_container .banner-section-left-col p a{
+	color: #fff !important;
+}
+.nursing-home-content .nursing-home-left-part p strong, .nursing-home-right-part p strong{
+	font-family: 'poppinsbold';
+}
+.customsectionblockpractise  p{
+	    font-size: 16px !important;
+    color: #666666 !important;
+    font-family: 'poppinsregular' !important;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.customsectionblockpractise  p strong{
+	font-family: 'poppinsbold';
+}
+ul.practice-area-list li strong{
+	font-family: 'poppinsbold';
+}
+.nursing-home-claim-wrapper .nursing-home-claim-left ul.practice-area-list li{
+	font-weight:400;
+}
+ul li {
+    color: #666666 !important;
+}

@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:4.0
+CHARSET:UTF-8
+CLASS:PUBLIC
+FN:Lance Christopher Ivey;
+N:Ivey;Lance;Christopher;Mr.;
+ADR;TYPE=WORK;LABEL="515 N Flagler Dr Ste 1000\nWest Palm Beach, FL 33401-4350":;;515 N Flagler Dr Ste 1000;West Palm Beach;FL;33401-4350;
+ORG:Lytal, Reiter,Smith, Ivey & Fronrath
+TEL;TYPE=voice,work:561-820-2240
+TEL;TYPE=cell:
+TEL;TYPE=fax,work:561-207-9480
+EMAIL:livey@palmbeachlaw.com
+NOTE: Florida Bar Number: 77119
+END:VCARD

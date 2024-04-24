@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:4.0
+CHARSET:UTF-8
+CLASS:PUBLIC
+FN:Kevin Charles Smith;
+N:Smith;Kevin;Charles;Mr.;
+ADR;TYPE=WORK;LABEL="PO Box 4056\nWest Palm Beach, FL 33402-4056":;;PO Box 4056;West Palm Beach;FL;33402-4056;
+ORG:
+TEL;TYPE=voice,work:561-655-1990
+TEL;TYPE=cell:561-655-1990
+TEL;TYPE=fax,work:561-832-2932
+EMAIL:ksmith@lytalreiter.com
+NOTE: Florida Bar Number: 861030
+END:VCARD

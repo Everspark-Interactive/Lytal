@@ -1,0 +1,270 @@
+
+
+body{font-family: 'poppinsregular'; letter-spacing:0px;}
+p, h1, h2, h3, h4, h5, h6{letter-spacing:0px;}
+div{ box-sizing: border-box;}
+.avia-video .mejs-overlay-button{ background: url(../images/video-icon.png) no-repeat !important; outline: none; }
+#scroll-top-link{ right: 30px; bottom: 110px; }
+.header-wrp{ display: block; margin:0px; padding: 0px; }
+.google-map { background-color: #EEEEEE; }
+.header-contain-area{ display: block; margin: 0px; padding: 0px; width: 100%; }
+.logo-part{ display:inline-block; margin: 0px; padding: 0px; width: 30%; vertical-align: top; position: relative; height: 118px;} 
+.logo-part .logo{ position: absolute; bottom: -25px; float: none; display: inline-block; height: auto; top: unset;}
+.logo-part .logo a{ width: 300px; height: 118px; }
+.phone-and-menu-part{ display: inline-block; width: 65%;  vertical-align: top; padding-top: 10px;}
+
+.phone-info .rightPhone{ color: #004812 }
+.phone-info .rightPhone span{ color: #ab8e2c; margin-left: 10px; display: inline; }
+.phone-and-menu-part .phone-number{ text-align: right; width: 100%;}
+.phone-and-menu-part .phone-number .phone-info{ float: none; display: inline-block; font-size: 18px; color: #333333; font-weight: 700; font-family: ‘Poppins’, sans-serif;}
+.phone-and-menu-part .right-menu-section{ display: block; margin: 0px; padding: 0px; }
+.phone-and-menu-part .right-menu-section .main_menu{ clear: none; position: unset !important;  z-index: 100; line-height: 30px; }
+.phone-and-menu-part .right-menu-section .main_menu .avia-menu{ text-align: right; display: block; float: none;}
+.phone-and-menu-part .right-menu-section .main_menu .avia-menu ul{ display: inline-block; width: auto; float: none;}
+
+/*.phone-and-menu-part .right-menu-section .main_menu .avia-menu ul li{ display: inline-block; width: auto; float: none;}*/
+.phone-and-menu-part .right-menu-section .main_menu .avia-menu ul li.av-burger-menu-main{ display: none;}
+.phone-and-menu-part .right-menu-section .main_menu .avia-menu ul li a{ color: #333333; font-size: 14px; font-weight: 600; text-transform: uppercase; height: auto; line-height: normal; padding-top:23px; padding-bottom: 15px; font-family: 'poppinsmedium';}
+
+.phone-and-menu-part .right-menu-section .main_menu .avia-menu ul li:nth-last-child(2) a{ padding-right: 0px;}
+
+.practise_area_container .banner-section-practice{ padding: 0 !important; }
+.right-menu-section ul.submenu{ display: none }
+.slick-initialized .slick-slide{outline: none;}
+
+.useful-wrapper{ display: block; margin: 0px; padding: 58px 0px; background: #fff; float: left; width: 100%; }
+.useful-wrapper h2{ color: #ab8e2c; font-size: 24px; font-weight: 700; /*font-family: ‘Playfair Display’, serif;*/ margin-bottom: 45px; }
+.useful-wrapper .useful-list{ display: inline-block; margin: 0px 0px 0px -4px; vertical-align: top; padding: 0px; width: 16.66%; }
+.useful-wrapper .useful-list h3{ display: block; margin: 0px 0px 15px 0px; padding: 0px; font-size: 14px; color: #42744f; font-weight: 700;  font-family: 'poppinsbold';}
+.useful-wrapper .useful-list .av-useful-nav-wrap{ display: block; margin: 0px; padding: 0px; }
+.useful-wrapper .useful-list .av-useful-nav-wrap ul{ display: block; margin: 0px; padding: 0px; }
+.useful-wrapper .useful-list .av-useful-nav-wrap ul li{ display: block; margin: 0px 0px 12px 0px;  padding: 0px; }
+.useful-wrapper .useful-list .av-useful-nav-wrap ul li a{ display: block; margin: 0px; padding: 0px; font-size: 14px; color: #666666; text-decoration: none;  line-height: normal; font-family: 'poppinsregular'; transition: all 0.5s; }
+.useful-wrapper .useful-list .av-useful-nav-wrap ul li a:hover{color: #004812; padding-left: 7px; }
+.practice-footer .first{ display: none;}
+/* .practice-footer{background: #eeeeee;} */
+
+.form-section-practice{ background: #ffffff url(../images/about-sect-bg.png) repeat-x top !important;}
+.form-section-practice .av_textblock_section { display: block; margin: 0px; padding: 0px; font-size: 16px; color: #666666; line-height: 24px; margin-bottom: 18px; font-family: 'poppinsregular'; font-weight: 400;}
+.form-section-practice .free-case-form-col .avia-builder-widget-area{ background: #FFF; padding:20px 35px; box-shadow: 0px 0px 30px #0000004f; }
+.form-section-practice .av_textblock_section p{font-family: 'poppinsregular'; font-weight: 400;}
+.form-section-practice .free-case-form-left-col{ width: 65%; padding-right:15%;}
+.form-section-practice .free-case-form-col{ width: 35%; margin: -115px 0px 0px 0px;}
+.form-section-practice .free-case-form-col .widgettitle{ display: block; font-size: 24px; font-weight: 700; color: #004812; line-height: 24px; /*font-family: ‘Playfair Display’, serif;*/ text-transform: none !important; letter-spacing:0px; margin: 0px 0px 20px 0px !important; padding: 0px !important;}
+.form-section-practice .free-case-form-col .gform_body P{ display: block; margin: 0px 0px 25px 0px; padding: 0px; color: #666666; font-size: 16px; line-height: 20px; font-family: 'poppinsregular'; }
+.form-section-practice .free-case-form-col .widget{margin: 0px; padding: 0px;}
+.form-section-practice .free-case-form-col .gform_wrapper{ margin: 0px; padding: 0px;}
+.form-section-practice .free-case-form-col .gform_wrapper form{ margin: 0px !important; padding: 0px !important}
+.form-section-practice .free-case-form-col .gform_wrapper .gform_fields{ display: block; margin: 0px; padding: 0px; }
+.form-section-practice .free-case-form-col .gform_wrapper .gform_fields li{  display: block; margin: 0px 0px 18px 0px; padding: 0px;  }
+.form-section-practice .free-case-form-col .gform_wrapper .gform_fields li .ginput_container{ display: block; margin: 0px; padding: 0px; }
+.form-section-practice .free-case-form-col .gform_wrapper .gform_fields li .ginput_container input[type="text"], .form-section-practice .free-case-form-col .gform_wrapper .gform_fields li .ginput_container .textarea{ border: none !important; border-bottom: 1px solid #aaaaaa !important; font-size: 16px; color:#666666 !important; padding: 0px 0px 10px 0px !important; margin: 0px !important; font-family: 'poppinsregular' !important; background: none !important; } 
+.form-section-practice .free-case-form-col .gform_wrapper .gform_fields li .ginput_container .textarea{ height: 85px;}
+
+.form-section-practice .free-case-form-col .gform_wrapper .gform_footer{ margin: 0px !important; padding: 0px !important;}
+.form-section-practice .free-case-form-col .gform_wrapper .gform_footer .button{background: #004812; color: #dbb00e; padding: 20px; font-size: 16px !important; font-weight: 700 !important;  font-family: 'poppinsbold'; !important; text-transform: uppercase; outline: none;}
+
+.form-section-practice .free-case-form-left-col div.hr.avia-builder-el-last{ margin:0px 0px 0px 0px !important; padding: 0px; border-color: #888888 !important;} 
+.form-section-practice .free-case-form-left-col div.hr.avia-builder-el-last span{ border-color: #888888 !important;}
+
+.video-section-wrapper{background: #fff !important;}
+.video-section-wrapper .av-content-full{ margin: 0px; padding: 0px 0px 60px 0px; display: block; }
+.video-section-wrapper .video-left-col{ width: 65%; padding-right:15%;}
+.video-section-wrapper .video-right-col{  width: 35%; margin: 0px; ;padding: 0px;}
+.video-section-wrapper .video-left-col .free-consultation-text h6{ display: block; font-size: 24px; color: #666666; /*font-family: ‘Playfair Display’, serif;*/ font-weight: 700; line-height: 30px; }
+.video-section-wrapper .video-left-col .av-special-heading{ margin: 0px; padding: 0px; }
+.video-section-wrapper .video-left-col .av-special-heading h5{ font-size: 35px; font-weight: 600; color: #b7900b;  font-family: 'poppinsmedium'; margin: 0px ; padding: 0px;}
+
+.video-section-wrapper .msg-now-box{ display: flex; width:100%; justify-content: space-between; }
+.video-section-wrapper .msg-now-box .msg-now-text{ display: block; font-size: 18px; color: #42744f; padding: 0px 20px 0px 0px;font-family: 'poppinsregular';}
+.video-section-wrapper .msg-now-box .msg-now-btn{ display: block; }
+.video-section-wrapper .msg-now-box .msg-now-btn a{ font-size: 16px; color: #dbb00e; padding: 20px 40px; background: #004812; min-width: 232px; display: block; text-align: center; font-weight: 600; }
+.video-section-wrapper .hr.hr-default {margin:0px 0px 0px 0px !important; padding: 0px; border-color: #888888 !important;} 
+.video-section-wrapper .hr.hr-default span{ border-color: #888888 !important;}
+
+.recent-settlements-section{position: relative !important;}
+.recent-settlements-section::after{ content: ""; position: absolute; width: 100%; height: 417px; top: 0px; left: 0px; background:  url(../images/our-recent.png) repeat-x top;}
+
+.practice-footer{ padding: 20px 0px 0px 0px; display: block; width: 100%;}
+.practice-footer .container{ display: block;  background: #FFF;  padding: 0px;}
+
+.testimonial-wrapper-section{ display: block; margin:0px; padding:0px; }
+.testimonial-wrapper-section .entry-content-wrapper{ border-top: 1px solid #b8b8b8; border-bottom: 1px solid #b8b8b8; padding: 60px 0px; }
+.testimonial-wrapper-section .testimonial-left-col{ padding: 0px 60px;}
+.testimonial-wrapper-section .testimonial-left-col .av-special-heading-h3{margin: 0px; padding: 0px !important;}
+.testimonial-wrapper-section .testimonial-left-col h3{ font-size: 72px; font-weight: 700; color: #c6d5ca; margin: 0px; padding: 0px; /*font-family: ‘Playfair Display’, serif;*/  font-style: normal}
+.testimonial-wrapper-section .testimonial-left-col .av-special-heading-h4{  margin: -25px 0px 0px 0px; padding: 0px 10px; font-family: ‘Poppins’, sans-serif; }
+.testimonial-wrapper-section .testimonial-left-col .av-special-heading-h4 h4{font-size: 24px; color: #044b16; font-family: 'poppinsregular' !important;}
+
+.testimonial-wrapper-section .testimonial-right-col{padding: 0px 0px 0px 40px}
+.testimonial-wrapper-section .testimonial-right-col .reviewDesc{ color: #616161; font-size: 18px; margin-bottom: 30px; font-style: italic; line-height: 24px; position: relative; display: block;  padding: 0px 60px 0px 0px;}
+.testimonial-wrapper-section .testimonial-right-col{position: relative;}
+.testimonial-wrapper-section .testimonial-right-col::after{content: "" !important; position: absolute; background: url(../images/testo-queat.png) no-repeat; width: 35px !important;  height: 25px !important; overflow: visible; top: 5px; left: -12px; visibility: unset; }
+.testimonial-wrapper-section .testimonial-right-col .testimonial_read_more{ color: #616161; font-size: 14px; font-weight: 700 !important;  font-family: 'poppinsbold'; text-transform: uppercase; text-decoration: underline;}
+.testimonial-wrapper-section .testimonial-right-col .testimonial_read_more:hover{ color: #42744f;}
+.testimonial-wrapper-section .testimonial-right-col .nz-testimonial-carousel{position: relative !important;}
+.testimonial-wrapper-section .testimonial-right-col .nz-testimonial-carousel .slick-next { position: absolute; bottom: 0px; right: 0px; line-height: 0; font-size: 0; border: none; background: none; outline: none;}
+.testimonial-wrapper-section .testimonial-right-col .nz-testimonial-carousel .slick-next::after{content: ""; background: url(../images/Polygon-2.png) no-repeat; width: 24px; height: 34px; z-index: 1000; right: 0px;
+ position: absolute;}
+.testimonial-wrapper-section .testimonial-right-col .nz-testimonial-carousel .slick-prev{ position: absolute; bottom: 0px; right: 45px; line-height: 0; font-size: 0; border: none; background: none;}
+.testimonial-wrapper-section .testimonial-right-col .nz-testimonial-carousel .slick-prev::after{content: ""; background: url(../images/Polygon-1.png) no-repeat; width: 24px; height: 34px; z-index: 1000;right: 0px;
+ position: absolute;}
+
+
+.legal-claim-right-col .av-image-caption-overlay-center{ position: relative;}
+.legal-claim-right-col .av-image-caption-overlay-center p{ position: absolute; right: 0px;  bottom: -75px; width: 80%; background: #004812; padding: 40px 80px !important; font-size: 16px; color: #f6eac6; font-weight: 700; line-height: 24px;
+ font-family: 'poppinsbold'; z-index: 1;}
+.legal-claim-right-col .av-image-caption-overlay-center::after{ content: ""; height: 73px; position: absolute; width: 100%; bottom: -75px; left: 0px; background: url(../images/caption-dot.png) repeat top left;  }
+
+
+/*
+.nursing-attorney-wrapper-section .av-image-caption-overlay-center{ position: relative}
+.nursing-attorney-wrapper-section .av-image-caption-overlay-center::after{ display: none;}
+*/
+.nursing-attorney-wrapper-section .entry-content-wrapper{ display: flex;}
+/* .nursing-home-claim-wrapper, .nursing-home-content, .testimonial-wrapper-section, .legal-claim-wrapper-section, .nursing-attorney-wrapper-section, .recent-settlements-section{ background: #eeeeee;} */
+/* .nursing-contact-wrapper-section{background: url(../images/get-free-bottom.png) repeat-x bottom !important;} */
+.nursing-attorney-wrapper-section .nursing-attorney-right-col{ position: relative; padding: 100px 200px 0px 0px;}
+.nursing-attorney-wrapper-section .nursing-attorney-right-col::after{ position: absolute; content: ""; background: url(../images/caption-dot.png) repeat right top;  width: 387px; height: 100%;  right: 0px; top:0px; visibility: visible;     z-index: -1; }
+.nursing-attorney-wrapper-section .nursing-attorney-right-col .av-image-caption-overlay-position{ display: block; width: 100%; }
+.nursing-attorney-wrapper-section .nursing-attorney-right-col .av-image-caption-overlay-center{ display: block;  width: 100%; position: relative; padding: 0px; }
+.nursing-attorney-wrapper-section .nursing-attorney-right-col .av-image-caption-overlay{ position: relative  !important;}
+.nursing-attorney-wrapper-section .nursing-attorney-right-col .avia-image-container-inner{ width: 100%;}
+.nursing-attorney-wrapper-section .nursing-attorney-right-col .avia-image-overlay-wrap{ position: relative !important;  background: #004812; opacity: 1 !important;  }
+.nursing-attorney-wrapper-section .nursing-attorney-right-col .av-image-caption-overlay-center p{ font-weight: 300; padding:60px 40px; font-size: 24px; color: #f6eac6; font-family: 'poppinsregular';}
+.nursing-attorney-wrapper-section .nursing-attorney-right-col .av-caption-image-overlay-bg{ background: none !important; opacity:1;}
+.nursing-attorney-wrapper-section .nursing-attorney-right-col .avia_image{ position: absolute; top: -19%; left: 50%; transform: translate(-50%);}
+
+
+.nursing-contact-right-col {text-align: center; position: relative; padding: 30px 45px 0px 45px; }
+.nursing-contact-right-col p.p-number{ display: block; margin: 0px; padding: 0px; font-size: 36px; font-weight: 400; color: #004812; text-align: center; line-height: 40px; }
+.nursing-contact-right-col p.p-number span{ display: block;  width: 100%; }
+.send-msg-wrapper{ background: #004812;margin: 15px 0px 0px 0px;; padding:20px 30px; }
+.send-msg-wrapper h4{ display: block;  width: 100%; margin: 0px; padding: 0px; color: #f6eac6; font-weight: 400; text-align: center;  font-size: 24px; font-family: 'poppinsregular';}
+.send-msg-wrapper .schedule-text{ display: block; margin: 0px; font-size: 14px; color: #f6eac6; font-family: ‘Poppins’, sans-serif; text-align: center;  }
+.dont-pay{ display: inline-block; margin: 0px; padding: 0px; text-align: center; font-size: 18px; color: #376e85; padding: 18px 40px; width: auto; background: #FFF; box-shadow: 0px 0px 30px #0000004f; }
+
+.nursing-contact-right-col::after{ position: absolute; content:""; background: url(../images/caption-dot.png) repeat right top; width: 100%; top: 0; height: 233px; visibility: visible; left: 0px; z-index: -1;}
+
+
+
+/* Responsive */
+@media only screen and (max-width: 1440px){
+    
+    
+}
+
+
+@media only screen and (max-width: 1366px){
+    
+    
+}
+
+
+@media only screen and (max-width: 1300px){
+    
+    
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1350px) {
+    
+    
+}
+
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    
+    .phone-and-menu-part .right-menu-section .main_menu .avia-menu ul li a{ padding: 0px 8px !important; font-size: 12px !important;}
+    .logo-part .logo {bottom: -15px;}
+}
+
+
+@media only screen and (max-width: 1199px){
+    
+    .nursing-home-claim-left{ display: block; width: 100%;}
+    .nursing-home-claim-wrapper .flex_column_table{ display: block; width: 100%;}
+    .nursing-home-claim-right .av_textblock_section .nursing-type-col ul { columns: 1 !important; -webkit-columns: 1 !important; -moz-columns: 1 !important;}
+    .testimonial-wrapper-section .testimonial-left-col h3 {font-size: 52px !important;}
+    .practise_area_container .banner-section-left-col h1 {font-size: 40px !important;}
+    .recent-settlements-section h2 {font-size: 38px !important;}
+    .recent-settlements-section .slide-entry-title.entry-title {font-size: 30px !important;}
+    .nursing-home-claim-wrapper .nursing-home-claim-left h3, .free-case-form-left-col h3,  .legal-claim-col h3,
+	.nursing-home-claim-wrapper .nursing-home-claim-left h2, .free-case-form-left-col h2,  .legal-claim-col h2{font-size: 32px !important;}
+    .legal-claim-right-col .av-image-caption-overlay-center p { padding: 20px 40px !important; font-size: 14px;}
+    .nursing-attorney-wrapper-section .nursing-attorney-right-col {padding: 100px 77px 0px 0px;}
+    .nursing-attorney-wrapper-section .nursing-attorney-right-col::after{width: 240px;}
+    .nursing-attorney-wrapper-section .nursing-attorney-right-col .av-image-caption-overlay-center p{font-size: 20px;}
+   	.page-template-practice-area .menu-item.dropdown_ul_available:after {content: '';background-image: url(/wp-content/themes/foryourrights-child/images/arrow.png);background-repeat: no-repeat;width: 10px;height: 10px;position: absolute;top: 3px;right: -3px;transform: rotate(90deg);}
+.practice-area-title h3, .practice-area-title h2{
+	font-size: 32px !important;
+}
+	}
+
+
+@media only screen and (max-width: 1024px){
+    	
+    
+}
+
+
+@media only screen and (max-width: 999px){
+    
+    .video-section-wrapper .msg-now-box {flex-wrap: wrap;}
+    .video-section-wrapper .msg-now-box .msg-now-text{ margin-bottom: 30px;}
+    .testimonial-wrapper-section .testimonial-left-col h3 {font-size: 42px !important;}
+    .testimonial-wrapper-section .testimonial-left-col .av-special-heading-h4 h4 { font-size: 18px !important;}
+    .testimonial-wrapper-section .testimonial-left-col .av-special-heading-h4 { margin: -19px 0px 0px 0px; padding: 0px 5px}
+    .useful-list{width: 33.33% !important; margin-bottom: 30px !important;}
+    .phone-and-menu-part .phone-number .phone-info{ text-align: right !important;}
+    
+}
+
+@media only screen and (max-width:768px){
+    
+    .testimonial-wrapper-section .testimonial-left-col{ padding: 0px !important;}
+    .testimonial-wrapper-section .entry-content-wrapper{ padding: 60px 0px !important;}
+    .testimonial-wrapper-section .testimonial-right-col::after{ left: 0px;}
+    .testimonial-wrapper-section .testimonial-right-col{padding: 0px 0px 0px 50px;}
+    
+    .responsive #top #wrap_all .slide-entry { width: 100% !important; margin-left: 0% !important; margin-bottom: 40px !important;}  
+    .recent-settlements-section .recent-settlements-text {padding: 0px 45px 25px !important;}
+    .nursing-attorney-wrapper-section .entry-content-wrapper { display: block;}
+    .nursing-attorney-wrapper-section .nursing-attorney-right-col::after {   width: 80%;     height: 80%;}
+    .nursing-home-claim-right .av_textblock_section {padding: 25px 25px 25px 106px;  background-size: 85px !important;}
+    .nursing-home-claim-right .avia-image-container-inner{  width: 100%;}
+    .phone-number{ display: none;} 
+    .faq-section-wrapper .template-page.content { padding: 50px 0px; }
+    .logo-part { width: 50%;}
+    .phone-and-menu-part { width: 49%;}
+
+}
+
+@media only screen and (max-width:767px){
+    .form-section-practice .free-case-form-left-col, .video-section-wrapper .video-left-col{ padding-right: 0px;}
+	#av_section_6 .template-page.content .post-entry.zksect1 .entry-content-wrapper{
+		display:block;
+	}
+}
+
+@media only screen and (max-width:580px){
+    .useful-list{ width:50% !important; margin-bottom: 30px !important;}
+    .testimonial-wrapper-section .testimonial-left-col h3 {font-size: 40px !important;}
+    .practise_area_container .banner-section-left-col h1 {font-size: 28px !important;}
+    .recent-settlements-section h2 {font-size: 25px !important;}
+    .recent-settlements-section .slide-entry-title.entry-title {font-size: 25px !important;} 
+    .page-template-practice-area .practise_area_container .banner-section-left-col p{ font-size: 16px;}
+    .nursing-home-claim-wrapper .nursing-home-claim-left h3, .free-case-form-left-col h3, .legal-claim-col h3,
+.nursing-home-claim-wrapper .nursing-home-claim-left h2, .free-case-form-left-col h2, .legal-claim-col h2	{ font-size: 25px !important;}
+    .video-section-wrapper .video-left-col .free-consultation-text h6 {font-size: 20px;}
+    .video-section-wrapper .video-left-col .av-special-heading h5 { font-size: 25px;}
+    .nursing-home-claim-right .av_textblock_section {padding: 25px 25px 25px 85px;  background-size: 65px !important;}
+    .logo-part { width: 70%;}
+    .phone-and-menu-part { width: 28%;}
+    .nursing-contact-right-col{ padding: 30px 20px;}
+    .nursing-contact-right-col p.p-number{ font-size: 25px;}
+    .send-msg-wrapper h4{ font-size: 20px;}
+	.practice-area-title h3, .practice-area-title h2{
+	font-size: 25px !important;
+}
+}

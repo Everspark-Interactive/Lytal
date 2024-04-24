@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:4.0
+CHARSET:UTF-8
+CLASS:PUBLIC
+FN:Daniel Carl Jensen;
+N:Jensen;Daniel;Carl;Mr.;
+ADR;TYPE=WORK;LABEL="515 N Flagler Dr\n10th Floor Northbridge Centre\nWest Palm Beach, FL 33401-4321":;;10th Floor Northbridge Centre 515 N Flagler Dr;West Palm Beach;FL;33401-4321;
+ORG:Lytal, Reiter, Smith, Ivey & Fronrath
+TEL;TYPE=voice,work:561-820-2229
+TEL;TYPE=cell:561-315-7231
+TEL;TYPE=fax,work:561-805-5835
+EMAIL:djensen@foryourrights.com
+NOTE: Florida Bar Number: 112566
+END:VCARD

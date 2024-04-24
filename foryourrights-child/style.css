@@ -1,0 +1,1042 @@
+/*
+Theme Name: For Your Rights
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Kriesi
+Author URI: http://www.kriesi.at
+Template: foryourrights
+*/
+
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('fonts/proximanova-light-webfont.eot');
+    src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-light-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-light-webfont.woff') format('woff'),
+         url('fonts/proximanova-light-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-light-webfont.svg#proxima_nova_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('fonts/proximanova-regular-webfont.eot');
+    src: url('fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-regular-webfont.svg#proxima_nova_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('fonts/proximanova-semibold-webfont.eot');
+    src: url('fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-semibold-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-semibold-webfont.svg#proxima_nova_semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('fonts/proximanova-bold-webfont.eot');
+    src: url('fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-bold-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-bold-webfont.svg#proxima_nova_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*Add your own styles here:*/
+
+body{font-family: 'Proxima Nova Regular';letter-spacing:0.2px;font-size:15px;line-height:26px;}
+.special_amp{font-family:inherit;font-style:normal;font-size:1em;color:inherit !important;}
+.avia_image{border-radius:0px;}
+strong{font-family: 'Proxima Nova Semibold';font-weight:normal;}
+p{margin:20px 0px;}
+.page-id-8 #header{height:auto !important;}
+body.helvetica_neue, .helvetica-neue-websave{font-family: 'Proxima Nova Regular';}
+#top .image-overlay{display: none !important;}
+
+#top.page-id-2348 .parallax-mirror, #top .parallax-mirror{height:auto !important;}
+/* #top.page-id-2348 header, #top header{height:auto !important;} */
+
+#header{z-index:99999;height:178px !important;background:#ffffff;}
+#header_meta{position:absolute;background:#ffffff;border:none;width:100%;top:45px;z-index:2;}
+#header_meta .leftPhone{float:left;}
+#header_meta .rightPhone{float:right;}
+#header_meta .phone-info{float:left;width:100%;text-transform:uppercase;}
+#header_meta .phone-info span .leftPhone, #header_meta .phone-info span .rightPhone{font-size:30px;color:#cc9900;font-family: 'Proxima Nova Bold';line-height:36px;}
+#header_meta .phone-info span{display:block;font-family: 'Proxima Nova Bold';font-size:16px;color:#333333;font-weight:400;}
+#header, #header #header_main{border:none;}
+#header_main .av-logo-container{height:150px !important;line-height:150px !important;}
+#header_main .av-logo-container .logo{padding:15px 0px;}
+#header_main .av-logo-container img{height:120px;}
+#header_main #header_main_alternate{background:#004812;border:none;}
+#header_main #header_main_alternate .main_menu .avia-menu, #header_main #header_main_alternate .main_menu .menu{height:80px;}
+#header_main #header_main_alternate .main_menu .menu .menu-item{}
+#header_main #header_main_alternate .main_menu .menu .menu-item a{font-size:16px;color:#ffffff;text-transform:uppercase;line-height:80px;height:80px;font-weight:normal;font-family: 'Proxima Nova Semibold';padding:0px 35px;margin-right:1px;}
+#header_main #header_main_alternate .main_menu .menu .menu-item a:hover, #header_main #header_main_alternate .main_menu .menu .menu-item.current-menu-item a{background:#cc9900;}
+#header_main #header_main_alternate .main_menu .menu .menu-item .avia-menu-fx{display:none;}
+#header_main #header_main_alternate .main_menu .menu .menu-item .sub-menu{background:#004812;border:none;}
+#header_main #header_main_alternate .main_menu .menu .menu-item .sub-menu a{height:50px;line-height:50px;background:#004812;border:none;border-top:solid 1px rgba(0,0,0,0.2);}
+#header_main #header_main_alternate .main_menu .menu .menu-item .sub-menu a:hover{background:#cc9900;}
+
+#header.header-scrolled #header_main .av-logo-container, #header.header-scrolled #header_meta{display:none;}
+
+#top .topUpdateNotice{background: #222222;padding: 10px 80px;font-size: 16px;line-height: 22px;color: #ffffff;text-align: center;}
+
+#homebanner .container{z-index:1111;}
+#top #homebanner .av-section-color-overlay-wrap:before{content:"";background:rgba(211,156,10,0.75);position:absolute;bottom:0px;left:0px;width:100%;height:120px;z-index:999;}
+#top #homebanner .av-section-color-overlay-wrap{z-index:1000;}
+#homebanner .av-special-heading{margin-bottom:30px;margin-top:120px;}
+#homebanner .av-special-heading .av-special-heading-tag{padding:0px 10%;margin-bottom:40px;}
+#homebanner .av-special-heading .av-special-heading-tag, #homebanner .av-special-heading .av-special-heading-tag .special_amp{font-size:80px;color:#ffffff;font-weight:700;line-height:75px;}
+#homebanner .av-subheading p{font-family: 'Proxima Nova Bold';font-size:30px;color:#ffffff;}
+#homebanner .bannerLogo{margin-bottom:220px;}
+#homebanner .bannerLogo img{height:150px;width:auto;}
+#homebanner .bannerBottlom{z-index:9999;position:absolute;bottom:0px;margin:0px;}
+#homebanner .bannerBottlom .iconbox{float:left;width:33%;clear:none;margin-bottom:22px;}
+#homebanner .bannerBottlom .iconbox .iconbox_icon{border-radius:0px;margin:0px 18px 0px 0px;}
+#homebanner .bannerBottlom .iconbox.noRecoveryIcon .iconbox_icon{background:url(images/recovery-icon.png) no-repeat center;}
+#homebanner .bannerBottlom .iconbox.doCaseIcon .iconbox_icon{background:url(images/case-icon.png) no-repeat center;}
+#homebanner .bannerBottlom .iconbox.coCounselIcon .iconbox_icon{background:url(images/referreal-icon.png) no-repeat center;}
+#homebanner .bannerBottlom .iconbox .iconbox_content_title{font-family: 'Proxima Nova Bold';font-weight:normal;font-size:22px;letter-spacing:0px;margin-top:10px;}
+#homebanner .bannerBottlom .iconbox .iconbox_content_title a{color:#ffffff;}
+#homebanner .bannerBottlom .iconbox .iconbox_content_container p{font-size:16px;color:#ffffff;margin-top:5px;}
+#homebanner .bannerBottlom .iconbox .iconbox_icon:before{display:none;}
+
+.headerTitle{float:left;width:100%;padding:120px 0px;background-size:cover;position:relative;}
+.headerTitle .blackBg{position:absolute;width:100%;height:100%;left:0px;top:0px;background:rgba(0,0,0,0.6);}
+.headerTitle h1{font-family: 'Proxima Nova Bold';font-size:60px;line-height:62px;color:#ffffff;text-transform:uppercase;font-weight:normal;text-align:center;}
+.headerTitle h1 small{font-family: 'Proxima Nova Bold';font-size:30px;text-transform:uppercase;line-height:40px;display:block;margin-top:0px;}
+
+#homeabout .personalinjury{padding:40px;}
+#homeabout .personalinjury .av-special-heading .av-special-heading-tag{font-size:30px;color:#004812;margin-bottom:20px;line-height:40px;}
+#homeabout .personalinjury .av-subheading{font-family: 'Proxima Nova Bold';letter-spacing:0.2px;}
+#homeabout .personalinjury .avia_textblock{font-size:18px;color:#4d4d4d;line-height:24px;letter-spacing:1px;margin-bottom:30px;}
+#homeabout .personalinjury .avia-button{background:#efefef;border:solid 2px #d39c0a;padding:12px 30px;font-family: 'Proxima Nova Bold';font-size:16px;color:#d39c0a;text-transform:uppercase;}
+#homeabout .personalinjury .avia-button:hover{background:#d39c0a;color:#ffffff;}
+
+#top #interestingfacts{padding-bottom:60px;}
+#top #interestingfacts .av-special-heading .av-special-heading-tag{font-size:40px;color:#333333;line-height:50px;margin-bottom:25px;font-weight:500;}
+#top #interestingfacts .factSlider .new-special-heading{display:none;}
+#top #interestingfacts .factSlider.avia-content-slider{padding-bottom:40px;}
+#top #interestingfacts .factSlider .avia-smallarrow-slider-heading{position:absolute;bottom:0px;text-align:center;}
+#top #interestingfacts .factSlider .avia-smallarrow-slider-heading .goto-slide{background:#d6d6d6;border:none;margin:0px 4px;}
+#top #interestingfacts .factSlider .avia-smallarrow-slider-heading .goto-slide.active{background:#004812;}
+#top #interestingfacts .factSlider .avia-slideshow-dots{text-align:center;}
+#top #interestingfacts .avia-content-slider-inner{text-align:center;}
+#top #interestingfacts .avia-content-slider-inner .slide-entry-title{display:none;}
+#top #interestingfacts .avia-content-slider-inner h6{font-family: 'Proxima Nova Semibold';font-size:32px;color:#333333;margin:0px 0px 10px 0px;letter-spacing:0px;}
+#top #interestingfacts .avia-content-slider-inner p{font-family: 'Proxima Nova Bold';font-size:18px;color:#004812;margin:0px;letter-spacing:0.2px;}
+
+#wherestart .container{max-width:100%;padding:0px;}
+#wherestart .av-special-heading{background:#d39c0a;padding:40px 0px 45px 0px !important;}
+#wherestart .av-special-heading .av-special-heading-tag{font-size:40px;color:#ffffff;line-height:50px;margin-bottom:20px;font-weight:500;}
+#wherestart .av-special-heading .av-subheading{font-family: 'Proxima Nova Bold';font-size:18px;color:#ffffff;margin:0px;text-transform:uppercase;}
+#wherestart .avia-image-container .avia-image-container-inner, #wherestart .avia-image-container .avia_image{width:100%;}
+#wherestart .avia-image-container .av-image-caption-overlay-center p{font-family: 'Proxima Nova Bold';font-size:28px;line-height:34px;color:#ffffff;text-transform:uppercase;}
+
+#boardlawyers .trialContent{padding:40px;}
+#boardlawyers .trialContent .av-special-heading .av-special-heading-tag{font-size:30px;color:#004812;margin-bottom:20px;line-height:40px;}
+#boardlawyers .trialContent .av-subheading{font-family: 'Proxima Nova Bold';letter-spacing:0.2px;}
+#boardlawyers .trialContent .avia_textblock{font-size:18px;color:#4d4d4d;line-height:28px;letter-spacing:1px;margin-bottom:30px;}
+#boardlawyers .trialContent .avia-button{background:#efefef;border:solid 2px #d39c0a;padding:12px 30px;font-family: 'Proxima Nova Bold';font-size:16px;color:#d39c0a;text-transform:uppercase;}
+#boardlawyers .trialContent .avia-button:hover{background:#d39c0a;color:#ffffff;}
+
+#top #foryourrightslist .av-special-heading h3.av-special-heading-tag{font-size:40px;color:#333333;line-height:50px;margin-bottom:25px;font-weight:500;text-transform:uppercase;}
+#top #foryourrightslist .flex_column.av_one_fourth{background:#f3f3f3;border:solid 8px #ffffff;padding:18px 18px 18px 18px;text-align:center;margin-top:60px;float:left;}
+#top #foryourrightslist .avia-image-overlay-wrap{background:#efefef;border:solid 1px #004812;width:82px;height:82px;margin-top:-60px;}
+#top #foryourrightslist .avia_textblock{font-size:15px;line-height:24px;color:#4d4d4d;}
+#top #foryourrightslist .av-special-heading{margin:0px;padding:0px !important;}
+#top #foryourrightslist .av-special-heading h6.av-special-heading-tag{font-size:24px;color:#004812;line-height:40px;margin:15px 0px 15px 0px;}
+#top #foryourrightslist .avia-button{background:#efefef;border:solid 2px #d39c0a;padding:12px 30px;font-family: 'Proxima Nova Bold';font-size:16px;color:#d39c0a;text-transform:uppercase;margin:15px 0px;}
+#top #foryourrightslist .flex_column.av_one_fourth:hover .avia-button{background:#d39c0a;color:#ffffff;}
+#top #foryourrightslist .flex_column.av_one_fourth:hover{background:#004812;}
+#top #foryourrightslist .flex_column.av_one_fourth:hover .avia_textblock, #top #foryourrightslist .flex_column.av_one_fourth:hover .av-special-heading h6.av-special-heading-tag{color:#ffffff;}
+
+#homeemergency .catastrophicinjury, #homeemergency .liabilityLawyers{padding:40px 50px;}
+#homeemergency .catastrophicinjury .av-special-heading .av-special-heading-tag, #homeemergency .liabilityLawyers .av-special-heading .av-special-heading-tag{font-size:30px;color:#ffffff;margin-bottom:20px;line-height:36px;letter-spacing: 1px;}
+#homeemergency .catastrophicinjury .avia_textblock, #homeemergency .liabilityLawyers .avia_textblock{font-size:16px;color:#ffffff;line-height:24px;letter-spacing:1px;}
+#homeemergency .liabilityLawyers .avia_textblock strong{color:#ffffff;font-family: 'Proxima Nova Bold';font-weight:normal;}
+
+#practicearealist{}
+#practicearealist .av-special-heading .av-special-heading-tag{font-size:40px;color:#333333;line-height:50px;font-weight:500;text-transform:uppercase;text-align:center;margin-top:15px;}
+#practicearealist .avia_textblock{font-size:18px;line-height:30px;color:#4d4d4d;text-align:center;}
+#practicearealist .avia_textblock strong{color:#d39c0a;font-family: 'Proxima Nova Semibold';font-weight:normal;text-transform:uppercase;}
+
+#resultlist .av-special-heading .av-special-heading-tag{font-family: 'Proxima Nova Bold';font-size:48px;color:#333333;line-height:60px;font-weight:normal;text-transform:uppercase;text-align:center;margin-bottom:20px;}
+#resultlist .avia_textblock{font-size:18px;line-height:30px;color:#4d4d4d;text-align:center;margin-bottom:40px;}
+#resultlist .avia_textblock strong{color:#d39c0a;font-family: 'Proxima Nova Semibold';font-weight:normal;text-transform:uppercase;}
+#resultlist .av_promobox{margin:10px 0px;background:#efefef;border:solid 1px #004812;position:relative;}
+#resultlist .av_promobox .avia-promocontent{font-size:16px;color:#333333;line-height:24px;}
+#resultlist .av_promobox .avia-promocontent p{margin:0px;font-size:16px;}
+#resultlist .av_promobox .avia-promocontent h6{font-size:26px;color:#004812;line-height:30px;margin-bottom:8px;font-weight:500;}
+#resultlist .av_promobox  .avia-button{position:absolute;right:0px;top:0px;bottom:0px;width:250px;border-radius:0px;background:#d39c0a;border:none;margin:0px;font-size:28px;color:#004812;font-family: 'Proxima Nova Bold';text-align:center;line-height:30px;padding-top:23px;}
+#resultlist .av_promobox  .avia-button .avia_iconbox_title span{font-size:18px;text-transform:uppercase;color:#ffffff;line-height:20px;display:block;}
+#resultlist .av_promobox:hover{background:#004812;}
+#resultlist .av_promobox:hover .avia-promocontent, #resultlist .av_promobox:hover .avia-promocontent h6{color:#ffffff;}
+#resultdisclaimer .avia_textblock{font-size:18px;color:#4d4d4d;line-height:28px;}
+#resultdisclaimer .avia_textblock h3{font-size:24px;color:#d39c0a;text-transform:uppercase;font-weight:normal;}
+
+#top .attorneyContent .avia-image-container{margin: 0px;}
+#top .attorneyContent .avia-image-overlay-wrap .avia_image{margin: 20px 0px 0px 0px;}
+#top .attorneyContent .avia_textblock{font-size:18px;line-height:30px;color:#222222;margin-bottom:40px;}
+#top .attorneyContent .avia_textblock strong{color:#d39c0a;font-family: 'Proxima Nova Semibold';font-weight:normal;text-transform:uppercase;}
+#top .attorneyContent .avia_textblock.attorneyImages img{height: 175px;width: auto;margin-right: 30px;}
+
+#top .greyText .av-special-heading .av-special-heading-tag{font-size:34px;color:#004812;line-height:42px;font-weight:500;text-transform:uppercase;}
+#top .greyText{padding:30px 40px;background:#efefef;}
+#top .greyText .avia_textblock{font-size:16px;color:#4d4d4d;line-height:28px;}
+#top .greyText .avia_textblock a, #top .greyText .avia_textblock strong{color:#004812;font-family: 'Proxima Nova Semibold';font-weight:normal;}
+#top .greyText .avia_textblock strong{color:#d39c0a;}
+
+#top .yellowText .av-special-heading .av-special-heading-tag{font-size:34px;color:#ffffff;line-height:42px;font-weight:500;text-transform:uppercase;}
+#top .yellowText{background:#d39c0a;padding:30px 40px;}
+#top .yellowText .avia_textblock{font-size:16px;color:#ffffff;line-height:28px;}
+#top .yellowText .avia_textblock a, #top .yellowText .avia_textblock strong{color:#004812;font-family: 'Proxima Nova Semibold';font-weight:normal;}
+#top .yellowText .avia_textblock h3, #top .yellowText .avia_textblock h4{font-size:32px;color:#ffffff;line-height:42px;font-family: 'Proxima Nova Bold';font-weight:normal;margin:10px 0px 20px 0px;}
+
+#top #thefirm .greyText .avia_textblock{font-size:18px;color:#4d4d4d;line-height:30px;}
+
+#top .partnerslist .av-special-heading .av-special-heading-tag{font-size:40px;color:#333333;line-height:50px;font-weight:500;text-transform:uppercase;margin-bottom:30px;}
+#top .partnerslist .lawyersContent{background:#efefef;padding:30px 40px;}
+#top .partnerslist .lawyersContent{font-size:18px;color:#333333;line-height:26px;}
+#top .partnerslist .lawyersContent h6{font-size:34px;color:#004812;line-height:40px;margin-bottom:20px;font-weight:500;}
+#top .partnerslist .lawyersContent .avia-button{background:#efefef;border:solid 2px #d39c0a;padding:12px 30px;font-family: 'Proxima Nova Bold';font-size:16px;color:#d39c0a;text-transform:uppercase;margin-top:20px;}
+#top .partnerslist .lawyersContent .avia-button:hover{background:#d39c0a;color:#ffffff;}
+#top .partnerslist .lawyersContent:hover{background:#004812;color:#ffffff;}
+#top .partnerslist .lawyersContent:hover h6{color:#ffffff;}
+
+.pageTopContent .avia_textblock{font-size:17px;line-height:26px;color:#4d4d4d;text-align:center;}
+.pageTopContent .avia_textblock h2, .pageTopContent .avia_textblock h3{font-size:36px;color:#004812;margin-bottom:20px;line-height:42px;font-weight:500;text-transform:uppercase;}
+.pageTopContent .avia_textblock h3{}
+.pageTopContent .avia_textblock a, .pageTopContent .avia_textblock strong{font-family: 'Proxima Nova Semibold';font-weight:normal;color:#cc9900;}
+.pageTopContent .avia_textblock a{color:#004812;}
+#stafflist .av-special-heading .av-special-heading-tag{font-size:40px;color:#333333;line-height:50px;font-weight:500;text-transform:uppercase;}
+
+.simpleText .avia_textblock{font-size:16px;line-height:26px;color:#4d4d4d;}
+.simpleText .avia_textblock h1, .simpleText .avia_textblock h2, .simpleText .avia_textblock h3, .simpleText .avia_textblock h4, .simpleText .avia_textblock h5, .simpleText .avia_textblock h6{font-size:44px;color:#004812;margin-bottom:20px;line-height:50px;font-weight:500;text-transform:capitalize;}
+.simpleText .avia_textblock h2{font-size:40px;line-height:50px;}
+.simpleText .avia_textblock h3{font-size:36px;line-height:42px;}
+.simpleText .avia_textblock h4{font-size:32px;line-height:38px;}
+.simpleText .avia_textblock h5{font-size:26px;line-height:36px;}
+.simpleText .avia_textblock h6{font-size:22px;line-height:30px;}
+.simpleText .avia_textblock a, .simpleText .avia_textblock strong{font-family: 'Proxima Nova Semibold';font-weight:normal;color:#cc9900;}
+.simpleText .avia_textblock a{color:#004812;}
+.simpleText .avia_textblock ul li{list-style:none;position:relative;width:100%;display:inline-block;margin:3px 0px;padding:0px 0px 0px 20px;color:#222222;}
+.simpleText .avia_textblock ul li:before{content:"";position:absolute;width:8px;height:8px;background:#d39c0a;border-radius:50%;left:0px;top:8px;}
+
+#top .contactAddress .avia_textblock{font-size:16px;line-height:28px;color:#4d4d4d;}
+#top .contactAddress .avia_textblock h3{font-size:24px;color:#004812;margin-bottom:10px;line-height:32px;font-weight:500;text-transform:uppercase;}
+#top .contactAddress .avia_textblock a, .pageTopContent .avia_textblock strong{font-family: 'Proxima Nova Semibold';font-weight:normal;color:#cc9900;}
+
+#top .staticPage .leftSection{width:23%;}
+#top .staticPage .rightSection{width:74%;margin-left:3%;}
+#top .staticPage h3{font-size:35px;color:#004812;font-weight:normal;margin-bottom:25px;}
+#top .staticPage h4{font-size:26px;color:#004812;font-weight:normal;margin-bottom:15px;line-height:32px;}	
+#top .staticPage .avia_textblock{font-size:18px;line-height:26px;letter-spacing:0.3px;}
+#top .staticPage .avia_textblock strong, #top .staticPage .avia_textblock a{font-family: 'Proxima Nova Bold';font-weight:normal;color:#004812;}
+#top .staticPage .avia_textblock a:hover{color:#cc9900;}
+#top .staticPage .avia_textblock .alignleft{margin-right:30px;margin-bottom:20px;}
+#top .staticPage .avia_textblock ul.list3col{margin-left:0px;float:left;width:100%;}
+#top .staticPage .avia_textblock ul.list3col li{float:left;width:32%;}
+#top .staticPage .avia_textblock ul li{list-style:none;position:relative;width:100%;display:inline-block;margin:3px 0px;padding:0px 0px 0px 20px;color:#222222;}
+#top .staticPage .avia_textblock ul li:before{content:"";position:absolute;width:8px;height:8px;background:#d39c0a;border-radius:50%;left:0px;top:8px;}
+
+#top .staticPage .leftSection .avia-icon-list-container{margin:12px 0px 20px 0px;}
+#top .staticPage .leftSection .avia-icon-list li{margin:5px 0px;}
+#top .staticPage .leftSection .avia-icon-list .iconlist_icon{color:#004812;width:24px;text-align:left;font-size:20px;line-height:30px;}
+#top .staticPage .leftSection .avia-icon-list .av_iconlist_title a{color:#222222;font-size:16px;line-height:28px}
+#top .staticPage .leftSection .avia-button{padding:0px;}
+#top .staticPage .leftSection .avia-button span{background:#d39c0a;font-family: 'Proxima Nova Bold';font-size:16px;color:#ffffff;text-transform:uppercase;padding:12px;display:block;}
+#top .staticPage .leftSection .avia-button span:hover{background:#004812;}
+#top .staticPage .leftSection .avia_textblock{text-align:center;}
+#top .staticPage .avia_textblock .super_lawyers_badge table, .staticPage .avia_textblock .super_lawyers_badge tr, .staticPage .avia_textblock .super_lawyers_badge tr td{background:transparent;}
+#top .staticPage .leftSection #basic_rs-badge-green{display:inline-block;margin:auto;}
+#top .staticPage .leftSection .av-special-heading{margin:25px 0px 0px 0px;}
+#top .staticPage .leftSection .av-special-heading h6.av-special-heading-tag{font-size:20px;color:#333333;line-height:28px;margin:0px;font-weight:500;text-transform:uppercase;font-family: 'Proxima Nova Bold';}
+
+#top .staticPage.newsLists .av-special-heading .av-special-heading-tag{font-size:48px;color:#333333;line-height:60px;font-weight:500;text-transform:uppercase;margin: 0px;}
+#top .staticPage.newsLists .image-overlay{display: none !important;}
+#top .staticPage.newsLists .avia_textblock{line-height:22px;}
+
+#top .blogPage .slide-entry.post-entry{background:#f2f2f2;width:32%;margin-left:2%;}
+#top .blogPage .slide-entry.post-entry.first{margin-left:0px;}
+#top .blogPage .slide-entry.post-entry .slide-image{margin:0px;background:url(images/no-img.jpg) no-repeat center center;background-size:cover;border:none;border-radius:0px;border-bottom:solid 1px #f2f2f2;}
+#top .blogPage .slide-entry.post-entry .image-overlay, #top .blogPage .slide-entry.post-entry .fallback-post-type-icon{display:none !important;}
+#top .blogPage .slide-entry.post-entry .slide-content{padding:20px 25px;}
+#top .blogPage .slide-entry.post-entry .slide-entry-title{font-size:20px;line-height:28px;margin-bottom:15px;height:56px;overflow:hidden;padding:0px;text-transform:inherit;}
+#top .blogPage .slide-entry.post-entry .slide-meta, #top .blogPage .slide-entry.post-entry .blog-categories.minor-meta{display:none;}
+#top .blogPage .slide-entry.post-entry .slide-entry-excerpt{font-size:18px;}
+#top .blogPage .slide-entry.post-entry .read-more-link .more-link{}
+#top .blogPage .slide-entry.post-entry .read-more-link .more-link{border:solid 3px #d39c0a;padding:8px 25px;font-family: 'Proxima Nova Bold';font-size:16px;color:#d39c0a;text-transform:uppercase;margin-top:25px;margin-bottom:10px; display:inline-block;border-radius:4px;text-decoration:none;}
+#top .blogPage .slide-entry.post-entry .read-more-link .more-link:hover, #top .blogPage .slide-entry.post-entry:hover .read-more-link .more-link:hover{background:#d39c0a;color:#ffffff;}
+#top .blogPage .slide-entry.post-entry .read-more-link .more-link-arrow{display:none;}
+#top .blogPage .slide-entry.post-entry:hover{background:#004812;}
+#top .blogPage .slide-entry.post-entry:hover .slide-entry-title, #top .blogPage .slide-entry.post-entry:hover .slide-entry-excerpt{color:#ffffff;}
+
+#top .pagination .current, #top .pagination a, #top .fullsize .template-blog .pagination a{font-family: 'Proxima Nova Bold';font-size:18px;width:40px;height:40px;line-height:40px;background:#676767;color:#ffffff; border-radius:0px;font-weight:normal;}
+#top .pagination .current{background:#004812;}
+#top .pagination .pagination-meta{font-size:16px;}
+
+#top .staticPage .rightSection .avia-button{background:#d39c0a;font-family: 'Proxima Nova Bold';font-size:16px;color:#ffffff;text-transform:uppercase;padding:15px 22px;display:block;border:none;}
+#top .staticPage .rightSection .avia-button:hover{background:#004812;}
+#top .mediaBox{background:#f2f2f2;padding:20px 25px;border-right:solid 12px #ffffff;}
+#top .mediaBox h3{font-size:30px;margin-bottom:15px;}
+#top .mediaBox .avia_textblock{font-size:16px;line-height:24px;min-height:305px;}
+#top .mediaBox .avia-button{background:#efefef;border:solid 2px #d39c0a;padding:12px 30px;font-family: 'Proxima Nova Bold';font-size:16px;color:#d39c0a;text-transform:uppercase;}
+#top .mediaBox .avia-button:hover{background:#d39c0a;color:#ffffff;}
+
+.single.single-post .standard-content .entry-content{font-size:18px;line-height:26px;letter-spacing:0.3px;}
+.single.single-post .standard-content .big-preview.single-big .image-overlay, .single.single-post .standard-content .blog-categories.minor-meta, .single.single-post .standard-content .post-meta-infos{display:none !important;}
+.single.single-post .standard-content .post-title{margin-top:10px;margin-bottom:0px;font-weight:normal;text-transform:inherit;pointer-events:none;padding:0px;letter-spacing:0.5px;font-size:30px;line-height:38px;}
+.single.single-post .av-share-link-description{font-size:22px;font-weight:normal;}
+
+.sidebar .inner_sidebar .widget_categories{}
+.sidebar .inner_sidebar .widget_categories .widgettitle{display:none;}
+.sidebar .inner_sidebar .widget_categories ul{}
+.sidebar .inner_sidebar .widget_categories ul li{list-style:none;position:relative;width:100%;display:inline-block;margin:3px 0px;padding:0px 0px 0px 20px;color:#222222;}
+.sidebar .inner_sidebar .widget_categories ul li:before{content:"";position:absolute;width:8px;height:8px;background:#d39c0a;border-radius:50%;left:0px;top:8px;}
+.sidebar .inner_sidebar .widget_categories ul li a{color:#222222;font-size:16px;}
+.sidebar .inner_sidebar .widget_categories ul li a:hover{color:#004812;}
+
+#top .videosList .flex_column.no_margin{float:left;width:32%;margin:0px 2% 3% 0px;}
+#top .videosList .flex_column_table .flex_column.no_margin:nth-child(3){margin-right:0px;}
+#top .videosList .avia-video{margin:0px;}
+#top .videosList .av-special-heading{margin-top:0px;}
+#top .videosList .av-special-heading .av-special-heading-tag{font-family: 'Proxima Nova Regular';font-size:16px;background:#efefef;padding:12px 15px;line-height:22px;}
+
+.togglecontainer{}
+.togglecontainer .single_toggle{margin-bottom:15px;}
+.togglecontainer .toggle_icon{left:inherit;right:15px;width:18px;height:18px;border:none;}
+.togglecontainer .toggle_icon .vert_icon{border-color:#004812;top:-3px;height:19px;left:5px;}
+.togglecontainer .toggle_icon .hor_icon{border-color:#004812;top:5px;width:19px;left:-2px;}
+.togglecontainer .activeTitle .toggle_icon .vert_icon{display:none;}
+.togglecontainer .activeTitle .toggle_icon .hor_icon{border-color:#ffffff;}
+.togglecontainer .av_toggle_section .toggler{background:#efefef;font-size:20px;color:#004812;line-height:30px;text-transform:uppercase;padding:15px 60px 15px 25px;border:solid 1px #004812;font-family: 'Proxima Nova Semibold';letter-spacing:0.5px;}
+.togglecontainer .av_toggle_section .toggler.activeTitle{background:#004812;color:#ffffff;}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content{background:#f3f3f3;font-size:15px;color:#4d4d4d;padding:25px 25px 10px 25px;border:solid 1px #e4e4e4;border-top:none;letter-spacing:0.2px;}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content a{color:#333333;font-family: 'Proxima Nova Semibold';}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content a:hover{color:#004812;}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content p:first-child{margin-top:0px;}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content strong{font-family: 'Proxima Nova Bold';font-weight:normal;color:#cc9900;}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content ul li{list-style:none;position:relative;width:24%;display:inline-block;margin:5px 0px;padding:0px 0px 0px 20px;}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content ul li:before{content:"";position:absolute;width:8px;height:8px;background:#d39c0a;border-radius:50%;left:0px;top:6px;}
+.list1col.togglecontainer .av_toggle_section .toggle_wrap .toggle_content ul li{width:100%;font-size:16px;letter-spacing:0.3px;}
+.list1col.togglecontainer .av_toggle_section .toggle_wrap .toggle_content ul li:before{top:8px;}
+
+.avia-image-container.image100, .avia-image-container.imagefull, .avia-image-container.profilephoto{margin:0px;}
+.avia-image-container.image100 .avia-image-container-inner, .avia-image-container.imagefull .avia-image-container-inner, .avia-image-container.profilephoto .avia-image-container-inner{width:100%;}
+.avia-image-container.image100 img, .avia-image-container.imagefull img, .avia-image-container.profilephoto img{width:100%;}
+.avia-image-container.profilephoto img{border:solid 5px #d39c0a;}
+
+#footer{border:none;padding:0px;}
+#footer .container{max-width:100%;padding:0px;}
+#footer .flex_column{margin:0px;}
+#footer .flex_column.av_one_third{max-width:100%;width:100%;}
+#footer .flex_column.av_one_third .widget{max-width:1250px;margin:auto;padding:0px 20px;text-align:center;}
+#footer .flex_column.av_one_third.first .widget.widget_text{max-width:1250px;margin:auto;padding:0px 20px;}
+#footer .flex_column.av_one_third.first .textwidget{width:50%;text-align:center;}
+#footer .flex_column.av_one_third.first{background:#004812;padding:100px 0px;font-size:18px;color:#ffffff;line-height:34px;width:100%;position:relative;}
+#footer .flex_column.av_one_third.first strong{color:#ffffff;font-family: 'Proxima Nova Bold';font-weight:normal;}
+#footer .flex_column.av_one_third.first a{color: #ffffff;}
+#footer .flex_column.av_one_third.first:after{content:"";background:url(images/footer-contact-map.jpg) no-repeat center center;background-size:cover;position:absolute;width:50%;right:0px;top:0px;bottom:0px;height:100%;z-index:123;visibility:visible;}
+#footer .flex_column .widget_media_gallery #gallery-1{margin:60px 0px;}
+#footer .flex_column .widget_media_gallery #gallery-1 .gallery-item{float:none;display:inline-block;height:100px;width:auto;margin:0px 15px;}
+#footer .flex_column .widget_media_gallery #gallery-1 .gallery-item img{height:100px;width:auto;border:none; -webkit-filter: grayscale(100%);filter: grayscale(100%);opacity:0.7;}
+#footer .flex_column .widget_media_gallery #gallery-1 .gallery-item img:hover{-webkit-filter: grayscale(0);filter: grayscale(0);opacity:1;}
+#footer .flex_column .widget_nav_menu #menu-footer-menu{margin-bottom:35px;}
+#footer .flex_column .widget_nav_menu #menu-footer-menu .menu-item{display:inline-block;margin:0px 20px;}
+#footer .flex_column .widget_nav_menu #menu-footer-menu .menu-item a{font-family: 'Proxima Nova Bold';font-size:15px;color:#4d4d4d;text-transform:uppercase;font-weight:normal;}
+#footer .flex_column .widget_nav_menu #menu-footer-menu .menu-item a:hover, #footer .flex_column .widget_nav_menu #menu-footer-menu .menu-item.current-menu-item a{color:#004812;}
+
+#socket{border:none;}
+#socket .container{padding-top:0px;padding-bottom:0px;}
+#top #wrap_all #socket .social_bookmarks{margin:0px;text-align:center;width:100%;height:auto;margin-bottom:40px;margin-top:30px;}
+#top #wrap_all #socket .social_bookmarks li{float:none;display:inline-block;width:44px;height:44px;margin:0px 4px;}
+/*#top #wrap_all #socket .social_bookmarks li a{width:44px;height:44px;background:url(images/social-icons.jpg) no-repeat;font-size:0px;}*/
+#top #wrap_all #socket .social_bookmarks li.social_bookmarks_twitter a{background-position:0px 0px;}
+#top #wrap_all #socket .social_bookmarks li.social_bookmarks_facebook a{background-position:-52px 0px;}
+#top #wrap_all #socket .social_bookmarks li.social_bookmarks_youtube a{background-position:-103px 0px;}
+#top #wrap_all #socket .social_bookmarks li.social_bookmarks_gplus a{background-position:-155px 0px;}
+#top #wrap_all #socket .social_bookmarks li.social_bookmarks_linkedin a{background-position:-207px 0px;}
+#top #wrap_all #socket .social_bookmarks li.social_bookmarks_instagram a{background-position:-258px 0px;}
+
+#top #socket .copyright{width:100%;font-size:13px;color:#353535;text-transform:uppercase;letter-spacing:1px;text-align:center;margin-bottom:5px;}
+#top #socket .sub_menu_socket{width:100%;text-align:center;color:#353535;}
+#top #socket .sub_menu_socket .menu{margin:0px 0px 40px 0px;}
+#top #socket .sub_menu_socket .menu .menu-item{float:none;display:inline-block;padding:0px 5px 0px 10px;font-size:13px;color:#353535;}
+#top #socket .sub_menu_socket .menu .menu-item a{font-size:13px;color:#353535;text-transform:uppercase;letter-spacing:1px;}
+
+.allreviews{float:left;width:100%;height:1000px;overflow:auto;}
+
+.testimonial_group{padding:0px 0px;}
+.testimonial_group .full-testimonial .rr_review_text .drop_cap{display:none;}
+.testimonial_group .full-testimonial{padding:20px !important;background:#f2f2f2;margin:40px 1% 1% 1%;width:calc(94% / 3) !important;position:relative; /*border-bottom:solid 1px #eaeaea;*/}
+.testimonial_group .full-testimonial:before{content:"";position:absolute;left:50%;top:-26px;width:52px;height:52px;border:solid 3px #004812;background:#ffffff url(images/testimonial-icon.png) no-repeat center center;margin-left:-26px;border-radius:50%;}
+.full-testimonial .review-head .review-info{width:100%;}
+.full-testimonial .review-head .review-info .rr_title{display:none;}
+.full-testimonial .review-head .review-info .rr_date{float:right;font-size:13px;font-style:normal;line-height:30px;}
+.full-testimonial .review-head .review-info .stars, .full-testimonial .review-head .review-info .rr_star{font-size:30px;line-height:30px;}
+.full-testimonial .rr_review_text{font-size:16px;color:#444444;line-height:24px;margin:8px 0px;padding:0px 2px;}
+.testimonial_group .full-testimonial .rr_review_name{text-align:left !important;padding:8px 0 0 0 !important;color:#676767;font-style:normal !important;font-family: 'Proxima Nova Semibold';}
+.reviews.reviewBtnHome{margin:25px 0px 25px 0px !important;}
+.testimonial_group .full-testimonial .rr_review_text .read_more, .testimonial_group .full-testimonial .rr_review_text .show_less{float:right;bottom:-18px;font-style:normal;font-size:14px;}
+.testimonial_group .full-testimonial:hover{background:#004812;}
+.full-testimonial:hover .rr_review_text, .full-testimonial:hover .review-head .review-info .rr_date, .testimonial_group .full-testimonial:hover .rr_review_name, .testimonial_group .full-testimonial:hover .rr_review_text .read_more, .testimonial_group .full-testimonial:hover .rr_review_text .show_less{color:#ffffff;}
+
+.reviewForm{padding:40px 0px;}
+.reviewForm table, .reviewForm th, .reviewForm td{border:none;}
+.reviewForm .stars, .reviewForm .rr_star{font-size:22px;}
+.reviewForm input, .reviewForm textarea{max-width:450px;}
+.staticPageReviews .testimonial_group .full-testimonial{background:#ffffff;}
+.staticPageReviews .testimonial_group .full-testimonial:hover{background:#004812;}
+.staticPageReviews  .av-special-heading .av-special-heading-tag{font-size:32px;color:#004812;line-height:40px;margin-bottom:30px;font-weight:500;}
+
+#top .stepForm .gform_wrapper{margin-bottom:0px;}
+#top .stepForm .gform_wrapper form{margin-bottom:0px;}
+#top .stepForm{background:#efefef;padding:45px 0px 70px 0px;float:left;width:100%;margin-top:25px;}
+#top.home .stepForm{margin-top:0px;}
+#top .stepForm h3{font-size:40px;line-height:44px;text-align:center;color:#333333;text-transform:uppercase;margin:0px 0px 25px 0px;font-weight:normal;}
+#top .stepForm h3 small{font-family: 'Proxima Nova Bold';font-size:18px;line-height:26px;color:#d39c0a;display:block;margin-top:10px;}
+#top .stepForm .gf_page_steps{border:none;padding:0px;margin:0px 0px 40px 0px;}
+#top .stepForm .gf_page_steps .gf_step{margin:0px;float:left;width:20%;text-align:center;height:auto;position:relative;opacity:0.5;}
+#top .stepForm .gf_page_steps .gf_step.gf_step_active{opacity:1;}
+#top .stepForm .gf_page_steps .gf_step:after{content:"";position:absolute;bottom:45px;left:0px;right:0px;width:100%; border-bottom:solid 2px #dcdcdc;}
+#top .stepForm .gf_page_steps .gf_step:before{content:"";position:absolute;bottom:38px;left:50%;margin-left:-8px;width:16px;height:16px; background:url(images/step-dot.jpg) no-repeat center center;z-index:21;}
+#top .stepForm .gf_page_steps .gf_step .gf_step_number{margin:0px -1px 0px 0px;background:#004812;width:50px;height:50px;font-size:0px;}
+#top .stepForm .gf_page_steps #gf_step_7_1 .gf_step_number{background:#004812 url(images/step1-icon.png) no-repeat center center;}
+#top .stepForm .gf_page_steps #gf_step_7_2 .gf_step_number{background:#004812 url(images/step2-icon.png) no-repeat center center;}
+#top .stepForm .gf_page_steps #gf_step_7_3 .gf_step_number{background:#004812 url(images/step3-icon.png) no-repeat center center;}
+#top .stepForm .gf_page_steps #gf_step_7_4 .gf_step_number{background:#004812 url(images/step4-icon.png) no-repeat center center;}
+#top .stepForm .gf_page_steps #gf_step_7_5 .gf_step_number{background:#004812 url(images/step5-icon.png) no-repeat center center;}
+#top .stepForm .gf_page_steps .gf_step .gf_step_label{display:block;font-family: 'Proxima Nova Bold';font-size:16px;line-height:30px;color:#333333;margin-top:40px;}
+
+#top .stepForm .stepBox{float:left;width:100%;background:#ffffff;padding:40px 40px 25px 40px;}
+#top .stepForm .stepBox input, #top .stepForm .stepBox textarea{border:solid 1px #e2e3e5;background:#ffffff;padding:15px 18px;font-size:16px;color:#333333;letter-spacing:0.5px;margin:12px 0px;}
+#top .stepForm .stepBox input:focus, #top .stepForm .stepBox textarea:focus{background:#004812;border:solid 1px #004812;color:#ffffff;}
+#top .stepForm .stepBox .name_first, #top .stepForm .stepBox .name_last{width:100%;padding:0px;}
+#top .stepForm .stepBox .gform_wrapper .gform_page_footer{border:none;padding-top:5px;margin-bottom:0px;}
+#top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_next_button, #top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_button{margin-right:0px;}
+#top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_next_button, #top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_previous_button, #top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_button{background:#d39c0a;font-family: 'Proxima Nova Bold';font-size:16px;text-transform:uppercase;color:#ffffff;padding:15px 50px 14px 50px;border:none;border-radius:4px;margin-top:15px;}
+#top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_next_button:hover, #top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_previous_button:hover, #top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_button:hover{background:#004812;}
+#top .stepForm .stepBox .gform_wrapper ul.gform_fields li.gfield{padding-right:0px;max-width: 100% !important;width:100%;}
+
+#top .stepForm .stepBox .gform_wrapper .ginput_container{width:100%;margin:0px;}
+#top .stepForm .stepBox .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.gfield_description{padding:0px;}
+
+#top .teamlist .av-special-heading .av-special-heading-tag{font-family: 'Proxima Nova Bold';font-size:36px;color:#333333;line-height:40px;font-weight:500;text-transform:uppercase;margin-bottom:15px;}
+#top .teamlist .flex_column{padding:10px;}
+#top .teamlist .avia_image{background:#000000;}
+#top .teamlist .avia_image:hover img{opacity:0.8;}
+#top .teamlist .avia_button_background, #top .teamlist .image-overlay{display:none !important;}
+#top .teamlist .avia-button{background:#004812;font-family: 'Proxima Nova Bold';font-size:15px;line-height:30px;color:#ffffff;text-transform:uppercase;padding:15px 10px;border-radius:0px;}
+#top .teamlist .flex_column:hover .avia-button{background:#cc9900;}
+
+#top .broken_link, a.broken_link{text-decoration: none;}
+
+.allReviews{float: left;width: 100%;padding: 60px 0px;}
+.allReviews .reviewLists{float: left;padding:20px;background:#f2f2f2;margin:40px 1% 1% 1%;width:calc(94% / 3) !important;position:relative; /*border-bottom:solid 1px #eaeaea;*/}
+.allReviews .reviewLists:before{content:"";position:absolute;left:50%;top:-26px;width:52px;height:52px;border:solid 3px #004812;background:#ffffff url(images/testimonial-icon.png) no-repeat center center;margin-left:-26px;border-radius:50%;}
+.allReviews .reviewLists:hover{background:#004812;}
+.allReviews .reviewLists:nth-child(3n + 1){clear: both;}
+.allReviews .reviewLists .reviewName{font-family: 'Proxima Nova Semibold';font-size:16px;color:#444444;line-height:25px;margin-top: 12px;}
+.allReviews .reviewLists .reviewDesc{font-size:16px;color:#444444;line-height:24px;margin:8px 0px;padding:0px;min-height: 96px;}
+
+.allReviews .reviewLists .reviewDate{float:right;font-size:13px;font-style:normal;line-height:30px;}
+.allReviews .reviewLists .reviewStar{font-size:0px;line-height:30px;color: #ffaf00;}
+.allReviews .reviewLists .reviewStar:after{font-size:30px;line-height:30px;color: #ffaf00;content: "★★★★★";}
+.allReviews .reviewLists .reviewStar.reviewStar4:after{content: "★★★★☆";}
+.allReviews .reviewLists .reviewStar.reviewStar3:after{content: "★★★☆☆";}
+.allReviews .reviewLists .reviewStar.reviewStar2:after{content: "★★☆☆☆";}
+.allReviews .reviewLists .reviewStar.reviewStar1:after{content: "★☆☆☆☆";}
+.allReviews .reviewLists .morelink{float:right;font-style:normal;font-size:14px;color: #719430;position: absolute;bottom:22px;right: 20px;}
+.allReviews .reviewLists:hover .reviewDate, .allReviews .reviewLists:hover .reviewName, .allReviews .reviewLists:hover .reviewDesc, .allReviews .reviewLists:hover .morelink{color:#ffffff;}
+
+.full-testimonial .review-head .review-info{width:100%;}
+.full-testimonial .review-head .review-info .rr_title{display:none;}
+
+.testimonial_group .full-testimonial .rr_review_name{text-align:left !important;padding:8px 0 0 0 !important;color:#676767;font-style:normal !important;}
+.reviews.reviewBtnHome{margin:25px 0px 25px 0px !important;}
+.testimonial_group .full-testimonial .rr_review_text .read_more, .testimonial_group .full-testimonial .rr_review_text .show_less{}
+
+#top .lawyerReviews{border-top: solid 1px #efefef !important;}
+#top .lawyerReviews .av-special-heading-tag{font-family: 'Proxima Nova Bold';font-size:36px;color:#333333;line-height:40px;font-weight:500;text-transform:uppercase;margin-bottom:20px;}
+#top .lawyerReviews .avia-testimonial-wrapper{margin-bottom: 0px;}
+#top .lawyerReviews .avia-testimonial{background: #ffffff;padding: 0px 10px;}
+#top .lawyerReviews .avia-testimonial_inner{position:relative;background: #f2f2f2;padding:65px 20px 20px 20px;}
+#top .lawyerReviews .avia-testimonial_inner:before{content:"";position:absolute;left:50%;top:-26px;width:52px;height:52px;border:solid 3px #004812;background:#ffffff url(images/testimonial-icon.png) no-repeat center center;margin-left:-26px;border-radius:50%;}
+#top .lawyerReviews .avia-testimonial_inner:hover{background:#004812;}
+#top .lawyerReviews .avia-testimonial_inner .avia-testimonial-content{font-size:16px;color:#444444;line-height:24px;margin: 0px 0px 15px 0px;} 
+#top .lawyerReviews .avia-testimonial_inner .avia-testimonial-content p{margin: 0px;}
+#top .lawyerReviews .avia-testimonial_inner .avia-testimonial-meta{position: static;}
+#top .lawyerReviews .avia-testimonial_inner .avia-testimonial-image{position: absolute;left: 20px;top: 20px;background: none !important;height: 36px;width: auto;margin: 0px;}
+#top .lawyerReviews .avia-testimonial_inner .avia-testimonial-image:after{font-size:30px;line-height:30px;color: #ffaf00;content: "★★★★★";}
+
+#top .lawyerReviews .avia-testimonial_inner .avia-testimonial-name{font-family: 'Proxima Nova Semibold';font-size:16px;color:#444444;line-height:25px;font-weight: normal;}
+#top .lawyerReviews .avia-testimonial_inner .avia-testimonial-subtitle{position: absolute;right: 20px;top: 20px;font-size:13px;font-style:normal;line-height:30px;color: #444444;}
+#top .lawyerReviews .avia-testimonial_inner .morelink{float:right;font-style:normal;font-size:14px;color: #004812;position: absolute;bottom:22px;right: 20px;}
+#top .lawyerReviews .avia-testimonial_inner .morecontent{display: none;}
+#top .lawyerReviews .avia-testimonial_inner.opened .morecontent{display: inline;}
+#top .lawyerReviews .avia-testimonial_inner.opened .moreellipses{display: none;}
+
+#top .lawyerReviews .avia-testimonial:hover .avia-testimonial-subtitle, #top .lawyerReviews .avia-testimonial:hover .avia-testimonial-name, #top .lawyerReviews .avia-testimonial:hover .avia-testimonial-content, #top .lawyerReviews .avia-testimonial:hover .morelink{color:#ffffff;}
+
+
+#top.postid-6533 .headerTitle{display: none;}
+
+#top.page-id-6805 .stepForm, #top.page-id-6805 .topUpdateNotice{display: none;}
+
+#top .bizinsHeader{position: absolute;top: 0px;left: 0px;right: 0px;z-index: 101;background: #ffffff;border-bottom: solid 2px #d49e0f !important;}
+#top .bizinsHeader:after{content: "";position: absolute;left: 50%;width: 50%;height: 100%;top: 0px;background: #d49e0f;}
+#top .bizinsHeader .container{padding-top: 0px !important;}
+#top .bizinsHeader .flex_column.av_two_fifth img.avia_image{margin: 25px 0px 0px 0px;}
+#top .bizinsHeader .flex_column.av_three_fifth{background: #d49e0f;padding: 45px 0px;text-align: left;}
+#top .bizinsHeader .flex_column.av_three_fifth:before{content: "";background: url(images/top-header-yellow-arrow.png) no-repeat top right;background-size: 100% auto;width: 125px;height: 100%;position: absolute;right: 100%;top: 0px;bottom: 0px;visibility: visible;overflow: inherit;}
+#top .bizinsHeader .avia-icon-list{}
+#top .bizinsHeader .avia-icon-list li{float: left;clear: none;margin-right: 45px;margin-left: 15px;}
+#top .bizinsHeader .avia-icon-list li .iconlist_icon{display: none;}
+#top .bizinsHeader .avia-icon-list li .av_iconlist_title{font-family: 'Muli', sans-serif;font-size: 16px;color: #333333;text-transform: uppercase;font-weight: 700;}
+#top .bizinsHeader .avia-icon-list li .iconlist_content p{margin: 0px;font-family: 'Scheherazade', serif;font-size: 48px;line-height: 50px;color: #ffffff;margin: 0px;}
+
+#top .bizinsuranceBanner{}
+#top .bizinsuranceBanner .entry-content-wrapper{margin: 200px 0px 30px 0px;}
+#top .bizinsuranceBanner h2.av-special-heading-tag{display: inline-block; font-family: 'Scheherazade', serif;font-size:72px;color:#ffffff;line-height:60px;font-weight:700;text-transform:uppercase;margin-top:20px;margin-bottom:0px;}
+#top .bizinsuranceBanner .flex_column.av_three_fifth .avia_textblock{font-family: 'Muli', sans-serif;font-size: 26px;line-height: 30px;color: #ffffff;text-transform: uppercase;}
+#top .bizinsuranceBanner .flex_column.av_two_fifth{background: #ffffff;padding: 45px;border-top: solid 5px #d6a41d;}
+#top .bizinsuranceBanner .flex_column.av_two_fifth h3.av-special-heading-tag{font-family: 'Scheherazade', serif;font-size:46px;color:#333333;line-height:42px;font-weight:700;text-transform:uppercase;margin-bottom:0px;text-align: center; }
+#top .bizinsuranceBanner .flex_column.av_two_fifth .avia_textblock{font-size: 14px;line-height: 22px;text-align: center;color: #004812;margin-bottom: 30px;}
+#top .bizinsuranceBanner .flex_column.av_two_fifth .avia_textblock p{margin: 0px;}
+#top .bizinsuranceBanner .wpcf7-form, #top .bizinsuranceBanner .wpcf7-form ul, #top .bizinsuranceBanner .wpcf7-form ul li{margin: 0px;padding: 0px;}
+#top .bizinsuranceBanner .wpcf7-form ul li{list-style: none;margin: 15px 0px;}
+#top .bizinsuranceBanner .wpcf7-form ul li input, #top .bizinsuranceBanner .wpcf7-form ul li textarea{background: transparent;color: #004812;font-family: 'Muli', sans-serif;font-size: 16px;line-height: 24px;font-weight: 400;padding: 10px 0px;border: none;border-bottom: solid 2px #4d4b49;margin: 0px;box-shadow: none;}
+#top .bizinsuranceBanner .wpcf7-form ul li textarea{height: 120px;}
+#top .bizinsuranceBanner .wpcf7-form ul li input:focus, #top .bizinsuranceBanner .wpcf7-form ul li textarea:focus{border-bottom: solid 2px #d39c0a;}
+#top .bizinsuranceBanner .wpcf7-form ul li.submitBtn{margin-bottom: -95px;}
+#top .bizinsuranceBanner .wpcf7-form ul li.submitBtn input{background: #004812;border: solid 2px #004812;font-size: 18px;text-transform: uppercase;color: #ffffff;display: block;width: 100%;margin-top: 30px;}
+#top .bizinsuranceBanner .wpcf7-form ul li.submitBtn input:hover{background: #d39c0a;border: solid 2px #d39c0a;}
+#top .bizinsuranceBanner .wpcf7-form .wpcf7-response-output{margin: 90px 0px 0px 0px;display: none !important;}
+
+#top .bizinsuranceBanner .wpcf7-form ul li ::placeholder {color: #333333;opacity: 1;}
+#top .bizinsuranceBanner .wpcf7-form ul li :-ms-input-placeholder {color: #333333;}
+#top .bizinsuranceBanner .wpcf7-form ul li ::-ms-input-placeholder {color: #333333;}
+
+#top .claimDenied{}
+#top .claimDenied .av-special-heading-tag{font-family: 'Scheherazade', serif;font-size:60px;color:#333333;line-height:48px;font-weight:700;text-transform:uppercase;margin-bottom:0px;border-bottom: solid 2px #d39c0a;padding-bottom: 15px;}
+#top .claimDenied .avia_textblock{font-family: 'Muli', sans-serif;font-size: 14px;line-height: 26px;color: #222222;}
+#top .claimDenied .avia-button{background:#004812;font-family: 'Muli', sans-serif;font-size:18px;line-height: 24px;color:#ffffff;text-transform:uppercase;padding:15px 45px;font-weight: 700;border: none;}
+#top .claimDenied .avia-button:hover{background: #d39c0a;}
+
+#top .insClaims .avia_textblock{font-family: 'Muli', sans-serif;font-size: 14px;line-height: 26px;color: #ffffff;}
+#top .insClaims .avia_textblock strong{font-family: 'Muli', sans-serif;color: #ffffff;font-weight: 700;font-size: 20px;line-height: 32px;}
+#top .insClaims .avia-button{background:#004812;font-family: 'Muli', sans-serif;font-size:18px;line-height: 24px;color:#ffffff;text-transform:uppercase;padding:15px 45px;font-weight: 700;border: none;}
+#top .insClaims .avia-button:hover{background: #ffffff;color: #004812;}
+
+#top .bizGetaFree{}
+#top .bizGetaFree h2.av-special-heading-tag{text-align: center; font-family: 'Scheherazade', serif;font-size:60px;color:#333333;line-height:48px;font-weight:700;text-transform:uppercase;margin-bottom:45px;border-bottom: solid 2px #d39c0a;padding: 0px 45px 10px 45px;}
+#top .bizGetaFree .avia_textblock{font-family: 'Muli', sans-serif;font-size: 14px;line-height: 26px;color: #333333;}
+#top .bizGetaFree .flex_column.av_one_full{margin-bottom: 45px;}
+#top .bizGetaFree .flex_column.av_two_fifth{margin: -200px 7% 0px 7%;width: 36%;background: #cf990a;padding: 45px;}
+#top .bizGetaFree .flex_column.av_three_fifth{width: 50%;margin: 0px;}
+#top .bizGetaFree .flex_column.av_two_fifth h5.av-special-heading-tag{font-family: 'Scheherazade', serif;font-size:46px;color:#ffffff;line-height:42px;font-weight:400;text-transform:uppercase;margin-bottom:0px;text-align: center; }
+#top .bizGetaFree .flex_column.av_two_fifth .avia_textblock{font-size: 14px;line-height: 22px;text-align: center;color: #ffffff;margin-bottom: 30px;}
+#top .bizGetaFree .flex_column.av_two_fifth .avia_textblock p{margin: 0px;}
+#top .bizGetaFree .wpcf7-form, #top .bizGetaFree .wpcf7-form ul, #top .bizGetaFree .wpcf7-form ul li{margin: 0px;padding: 0px;}
+#top .bizGetaFree .wpcf7-form ul li{list-style: none;margin: 15px 0px;}
+#top .bizGetaFree .wpcf7-form ul li input, #top .bizGetaFree .wpcf7-form ul li textarea{background: transparent;color: #222222;font-family: 'Muli', sans-serif;font-size: 16px;line-height: 24px;font-weight: 400;padding: 10px 0px;border: none;border-bottom: solid 2px rgba(0,0,0,0.5);margin: 0px;box-shadow: none;}
+#top .bizGetaFree .wpcf7-form ul li textarea{height: 120px;}
+#top .bizGetaFree .wpcf7-form ul li input:focus, #top .bizGetaFree .wpcf7-form ul li textarea:focus{border-bottom: solid 2px rgba(0,0,0,0.85);}
+#top .bizGetaFree .wpcf7-form ul li.submitBtn{margin-bottom: -95px;}
+#top .bizGetaFree .wpcf7-form ul li.submitBtn input{background: #004812;border: solid 2px #004812;font-size: 18px;text-transform: uppercase;color: #ffffff;display: block;width: 100%;margin-top: 30px;}
+#top .bizGetaFree .wpcf7-form .wpcf7-response-output{margin: 90px 0px 0px 0px;display: none !important;}
+
+#top .bizGetaFree .wpcf7-form ul li ::placeholder {color: rgba(255,255,255,0.7);opacity: 1;}
+#top .bizGetaFree .wpcf7-form ul li :-ms-input-placeholder {color: rgba(255,255,255,0.7);}
+#top .bizGetaFree .wpcf7-form ul li ::-ms-input-placeholder {color: rgba(255,255,255,0.7);}
+
+#top .bizinsuranceList .entry-content-wrapper{margin-bottom: 45px;}
+#top .bizinsuranceList h3.av-special-heading-tag{display: inline-block; font-family: 'Scheherazade', serif;font-size:60px;color:#333333;line-height:48px;font-weight:700;text-transform:uppercase;margin-bottom:45px;border-bottom: solid 2px #d39c0a;padding: 0px 45px 10px 45px;}
+#top .bizinsuranceList .flex_column.av_one_fourth{padding: 30px;text-align: left;position: relative;}
+#top .bizinsuranceList .avia-image-container{margin: 0px;text-align: left;}
+#top .bizinsuranceList .av-special-heading-h6{margin: 10px 0px 0px 0px;padding: 0px !important;}
+#top .bizinsuranceList h6.av-special-heading-tag{font-family: 'Muli', sans-serif;color: #ffffff;font-weight: 700;font-size: 22px;line-height: 32px;text-align: left;}
+#top .bizinsuranceList .avia_textblock{font-family: 'Muli', sans-serif;font-size: 14px;line-height: 26px;color: #ffffff;}
+#top .bizinsuranceList .avia-button-wrap{display: none; position: absolute;left: 0px;top: 0px;right: 0px;bottom: 0px;background: rgba(0,0,0,0.85);}
+#top .bizinsuranceList .flex_column.av_one_fourth:hover .avia-button-wrap{display: block;}
+#top .bizinsuranceList .avia-button{position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);background:transparent;font-family: 'Muli', sans-serif;font-size:14px;line-height: 24px;color:#ffffff;text-transform:uppercase;padding:10px 30px;font-weight: 400;border: solid 1px #ffffff;}
+#top .bizinsuranceList .avia-button:hover{background: #ffffff;color: #004812;}
+
+#top .bizinsuranceFooter .footerPhone{margin-top: -35px;background: url(images/footer-phone-bg.png) no-repeat right top; font-family: 'Scheherazade', serif;font-size: 60px;line-height: 60px;text-align: center;color: #ffffff;padding: 30px 0px;position: relative;}
+#top .bizinsuranceFooter .footerPhone:after{content: "";position: absolute;left: 100%;top: 0px;bottom: 0px;width: 210px;background: url(images/footer-right-corner.png) no-repeat right top;background-size: 100% auto;}
+#top .bizinsuranceFooter .footerPhone p{margin: 0px 0px;}
+#top .bizinsuranceFooter .footerPhone a{color: #ffffff;text-decoration: none;}
+#top .bizinsuranceFooter .copyright{font-family: 'Muli', sans-serif;font-size: 13px;line-height: 20px;color: rgba(255,255,255,0.75);padding: 75px 0px;margin: 0px;text-align: right;}
+#top .bizinsuranceFooter .copyright p{margin: 0px;}
+
+
+/* New Home */
+.main-banner-title{padding-top: 115px;}
+.main-banner-title h1{color: #fff;text-transform: capitalize !important;width: 450px;font-size: 45px;line-height: 60px;margin-bottom: 35px;}
+.main-slider-button a{color: #fff;font-size: 23px;font-family: 'poppinsregular' !important;background: #004812;padding: 10px 20px 5px 20px;margin-bottom: 25px;border: 2px solid #dbb00e;font-weight: 500;}
+.main-slider-button a:hover{color: #fff;}
+.main-slider-award-img{width: 180px;height: 130px;}
+.main-slider-award-img-wrap{display: inline-flex;}
+.main-banner-award-img-row{padding-bottom: 60px;margin-top: -70px;}
+.home-recent-case-col {padding: 80px 35px;border-right: 5px solid #fff !important;border-left: 5px solid #fff !important;}
+.home-recent-case-col:first-child{border-left: 10px solid #fff !important;}
+.home-recent-case-col:last-child{border-right: 10px solid #fff !important;}
+.recent-case-result-sub-title{color: #004812;font-size: 23px;font-weight: 700;font-family: 'poppinsbold' !important;padding-right: 120px;}
+.recent-case-result-sub-contant{font-size: 36px;font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;line-height: 46px;font-weight: 500;color: #333333;}
+.recrent-case-result-amount{font-size: 50px;}
+.home-who-we-are-title{font-size: 23px;color: #004812;font-family: 'poppinsregular' !important;font-weight: 600;margin-bottom: 15px;}
+.home-who-we-are-title h2{color: #444444;font-size: 48px;font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;text-transform: capitalize !important;}
+.home-who-we-are-content p{color: #444444;font-size: 23px;line-height: 40px;font-family: 'poppinsregular' !important;}
+.home-who-we-are{border-top: 1px solid #a79a8b !important;position: relative;}
+.home-who-we-are .entry-content-wrapper{display: flex;align-items:center ;}
+.home-who-we-are-button a{color: #fff;background: #004812;padding: 15px 20px;text-transform: uppercase;font-family: 'poppinsregular' !important;border: 2px solid #dbb00e;font-weight: 500;}
+.home-who-we-are-button a:hover{color: #fff;text-decoration: underline;}
+.home-who-we-are:before{content: '';background: url(/wp-content/uploads/2021/05/home-who-we-are-left-bg.png);background-repeat: no-repeat;position: absolute;width: 100%;background-size: 168px;height: 100%;left: 0px;bottom: 0px;}
+.home-who-we-are:after{content: '';background: url(/wp-content/uploads/2021/05/home-who-we-are-right-bg.png);background-repeat: no-repeat;position: absolute;width: 100%;height: 100%;right: 0px !important;bottom: 0px;background-position: right;background-size: 884px;}
+.home-practice-area-heading{text-align: center;}
+.home-practice-area-heading h2{font-size: 60px;text-transform: capitalize !important;color: #004812;margin-bottom: 15px;}
+.home-practice-area-sub-heading{color: #737373;font-size: 23px;font-family: 'poppinsregular';}
+.home-practice-area-sub-heading:after{content: '';border-bottom: 4px solid #d6a300;position: absolute;width: 125px;bottom: -35px;left: 45%;}
+.home-practice-areas-content-wrap{text-align: center;}
+.home-practice-areas-title{font-weight: 700;font-size: 24px;color: #42744f;font-family: 'Playfair Display';margin-bottom: 30px;line-height: 34px;}
+.home-practice-areas-content{font-size: 16px;color: #616368;font-family: 'poppinsregular';line-height: 28px;margin-bottom: 20px;}
+.home-practice-area-row{margin-bottom: 100px;}
+.home-practice-areas-read-more a{display: none;}
+.home-practice-area-box-wrap{padding: 20px 15px;min-height: 350px !important;}
+.home-practice-area-box-wrap:hover{box-shadow: 0px 0px 17px #b7b5b5;padding: 20px 15px;}
+.home-practice-area-box-wrap:hover .home-practice-areas-read-more a{display: block;text-decoration: underline;}
+.home-practice-areas-read-more a{font-weight: 500;font-size: 16px;text-transform: uppercase;font-family: 'poppinsregular';color: #616161;}
+.home-all-practice-area-link{text-align: center;}
+.home-all-practice-area-link a{color: #fff;background: #004812;padding: 10px 15px;font-family: 'poppinsregular';border: 2px solid #dbb00e;font-weight: 500;}
+.testimonial-image-inner{position: relative;}
+.testimonial-image a:after{content: '';background: url(/wp-content/uploads/2021/05/play-button.png);background-repeat: no-repeat;width: 75px;height: 75px;position: absolute;right: 10px;bottom: 0px;background-size: 50px;}
+.home-awards-list-row{text-align: center;}
+.home-awards-list-row .widget_media_gallery{padding-bottom: 0px;}
+.home-awards-list-row .widget_media_gallery #gallery-1 .gallery-item{float:none;display:inline-block;height:100px;width:auto;margin:0px 15px;}
+.home-awards-list-row .widget_media_gallery #gallery-1 .gallery-item img{height:100px;width:auto;border:none; -webkit-filter: grayscale(100%);filter: grayscale(100%);opacity:0.7;}
+.home-awards-list-row .widget_media_gallery #gallery-1 .gallery-item img:hover{-webkit-filter: grayscale(0);filter: grayscale(0);opacity:1;}
+.home-testimonial-title h2{font-size: 60px;text-transform: capitalize !important;color: #004812;margin-bottom: 15px;}
+.home-testimonial-sub-heading{color: #737373;font-size: 23px;font-family: 'poppinsregular';position: relative;margin-bottom: 50px;}
+.home-testimonial-sub-heading::after{content: '';border-bottom: 4px solid #d6a300;position: absolute;width: 125px;bottom: -25px;left: 0px;}
+.home-testimonial-section .testimonial-wrp{position: relative;}
+.testimonial-right{width: 50%;float: right}
+.testimonial-left{padding: 0px 60px 70px 145px;position: relative;position: absolute;width: 95%;background: #FFF;bottom: -30px;min-height: 300px;}
+.testimonial-left:before{content: '';background: url(/wp-content/uploads/2021/05/testimonial-coma-bg.png);background-repeat: no-repeat;width: 70px;height: 70px;position: absolute;left: 25px;top: 55px;}
+.testimonial-left .content{color: #616161;font-size: 16px;font-family: 'poppinsregular';line-height: 26px;font-style: italic;width: 300px;}
+.testimonial-wrp-inner{width: 100%;display: block !important;}
+.home-testimonial-section{padding-bottom: 170px;position: relative;}
+.home-testimonial-section .slick-prev {line-height: 0;font-size: 0;border: none;background: none;position: absolute;bottom: 0px;left: 47%;}
+.home-testimonial-section .slick-prev::before{content: '';background-image: url(/wp-content/uploads/2021/05/white-prev-arrow.png);background-repeat: no-repeat;width: 20px;height: 25px;position: absolute;bottom: -67px;z-index: 99;left: 8px;}
+.home-testimonial-section .slick-prev::after{content: '';background-repeat: no-repeat;width: 30px;height: 30px;position: absolute;bottom: -66px;background-color: #bebdbb;left: 1px;}
+.home-testimonial-section .slick-next {line-height: 0;font-size: 0;border: none;background: none;position: absolute;bottom: 0px;right: 47%;}
+.home-testimonial-section .slick-next::before{content: '';background-image: url(/wp-content/uploads/2021/05/white-next-arrow.png);background-repeat: no-repeat;width: 20px;height: 25px;position: absolute;bottom: -67px;left: -5px;z-index: 99;}
+.home-testimonial-section .slick-next::after{content: '';background-repeat: no-repeat;width: 30px;height: 30px;position: absolute;bottom: -66px;background-color: #bebdbb;left: -15px;}
+.home-testimonial-section:before{content: '';background: url(/wp-content/uploads/2021/05/testimonial-before-bg.png);background-repeat: repeat-x;width: 500px;height: 270px;left: 0px;top: 225px;position: absolute;}
+.home-testimonial-section:after{content: '';background: url(/wp-content/uploads/2021/05/testimonial-before-bg.png);background-repeat: repeat-x;width: 500px;height: 332px;right: 0px;top: 131px;position: absolute;}
+.home-testimonial-box-row {margin-top: -130px;}
+.testimonial-left .link a{font-size: 19px;font-family: 'poppinsregular';font-weight: 500;text-transform: uppercase;text-decoration: underline;}
+.home-attorneys-img{margin-top: 35px !important;}
+.home-attorneys-img img{padding: 10px;}
+.home-attorneys-title{margin-bottom: 80px;margin-top: 50px;}
+.home-latest-news-section{border-top: 1px solid #d5d5d5 !important;}
+.latest-news-title{margin-bottom: 130px;}
+.home-attorneys-name p a,.home-attorneys-name p{text-align: center;margin: 0px;line-height: 0px;font-size: 16px;color: #666666;font-family: 'poppinsregular';margin-bottom: 15px;}
+.home-latest-news-section .post-main{display: inline-flex;}
+.home-latest-news-section .post-wrp{width: 25%;}
+.home-latest-news-section .post-ineer-box{margin: 0px 15px;box-shadow: 0px 0px 10px #7c7c7e;max-height: 420px;overflow: hidden;border-radius: 5px;}
+.home-news-col{box-shadow: 0px 0px 10px #e4e4e4;border-radius: 5px !important;margin: 20px;}
+.home-news-col img{border-radius: 5px 5px 0px 0px;}
+.home-news-title{padding: 0px 15px;color: #444444;font-size: 18px;font-family: 'poppinsregular';margin-bottom: 20px;font-weight: 600;}
+.home-latest-news-section .entry-content-wrapper .flex_column_table{display: flex !important;}
+.home-news-sub-details{padding: 0px 15px 25px 15px;font-size: 16px;line-height: 20px;color: #616368;}
+.home-latest-news-section .post-title{padding: 35px 35px 0px 35px;color: #444444;font-size: 18px;font-family: 'poppinsregular';margin-bottom: 20px;}
+.home-latest-news-section .post-content{padding: 0px 35px 35px 35px;font-size: 16px;line-height: 20px;}
+.home-get-in-touch-section{padding: 50px 0px;}
+.home-get-in-touch-title h4{font-size: 30px;font-family: 'Playfair Display';color: #dbb00e;font-weight: 500;margin-bottom: 20px;}
+.home-get-in-touch-details{color: #fff;font-size: 18px;font-family: 'poppinsregular';}
+.home-get-in-touch-section input[type='text']{padding: 20px 15px !important;font-size: 18px;font-family: 'poppinsregular';}
+.home-get-in-touch-section textarea{padding-left: 15px !important;font-size: 18px;font-family: 'poppinsregular';}
+.home-get-in-touch-section input[type='text']::placeholder,.home-get-in-touch-section textarea::placeholder{font-size: 18px;font-family: 'poppinsregular';}
+.home-get-in-touch-section input[type=submit]{background: #dbb00e;color: #004812;font-weight: 600;font-size: 20px;text-transform: uppercase;font-family: 'poppinsregular';}
+.home-get-in-touch-section input[type=submit]:hover{background: #dbb00e;color: #004812;text-decoration: underline;}
+.page-template-home-new .google-map.row{display: flex;}
+.page-template-home-new .google-map.row .av_one_third{margin-left: 0px !important;border: 2px solid #d6a300;width: 33.33%;height: 455px;}
+#top .home-get-in-touch-section .gform_wrapper ul li.gfield{margin-bottom: 0px !important;}
+.home-case-study-row{    margin-bottom: 70px !important;}
+.home-practice-area-imag img{z-index: 99;transition: all 0s !important;}
+.home-practice-area-imag .avia-image-overlay-wrap{position: relative;background-color: #eeeeee;width: 80px;padding: 10px;}
+.home-practice-area-box-wrap:hover .home-practice-area-imag .avia-image-overlay-wrap{background-color: #004e08;}
+.home-practice-area-imag .avia-image-overlay-wrap:after{content: '';background: url(/wp-content/uploads/2021/05/practice-area-img-bg.png);position: absolute;width: 80px;height: 80px;background-repeat: no-repeat;top: 20px;right: -30px;z-index: -9;}
+.home-practice-area-box-wrap:hover .home-practice-area-imag img{filter: invert(68%) sepia(83%) saturate(507%) hue-rotate(359deg) brightness(98%) contrast(91%);}
+#av_section_6.home-practice-area-section .template-page.content .post-entry.zksect1 .entry-content-wrapper{display: block;}
+.home-dont-get-stuck-row .entry-content-wrapper{background: #fff;padding: 50px 75px !important;margin: 0px 80px;position: absolute;top: -90px;box-shadow: 0px 7px 17px #c7c7c7;display: flex;align-items: center;}
+.home-dont-get-stuck-row .entry-content-wrapper::before{content: '';background: url(/wp-content/uploads/2021/12/shield-03.png);position: absolute;width: 100px;height: 100px;background-repeat: no-repeat;left: -38px;visibility: visible;}
+.home-dont-get-stuck-row .home-dont-get-stuck-title,.home-practice-area-sub-heading,.our-results-title-section{position: relative;}
+.home-dont-get-stuck-title h3{color: #444444;font-size: 32px;line-height: 42px;}
+.dont-get-stucks-contact-link{text-align: center;}
+.dont-get-stucks-contact-link a{color: #fff;background: #004812;padding: 10px 85px;font-family: 'poppinsregular';font-size: 24px;border: 5px solid #dbb00e;font-weight: 500;}
+.dont-get-stucks-contact-link a:hover,.home-all-practice-area-link a:hover,.home-see-all-result-link a:hover,
+.why-choose-us-link a:hover{color: #fff;text-decoration: underline;}
+.dont-get-stucks-contact-detils{font-size: 20px;font-family: 'poppinsregular';color: #333333;line-height: 33px;}
+.home-dont-get-stuck-row{margin-bottom: 150px;}
+.home-map-section{margin-bottom: 65px !important;}
+.our-results-title-section:before{content: '';background: url(/wp-content/uploads/2021/05/our-results-title-bg.png);background-repeat: no-repeat;width: 100%;height: 450px;position: absolute;top: 0px;background-size: cover;z-index: 9;}
+.our-results-title-section:after{content: '';background: url(/wp-content/uploads/2021/05/dot.png);background-repeat: repeat;width: 100%;height: 100%;position: absolute;bottom: 0px;border-bottom: 1px solid #e5e5e5;}
+.our-results-title-section .container{z-index: 999;}
+.home-case-study-row{background: #fff;box-shadow: 0px 0px 10px #c7c7c7;    text-align: center;padding: 70px 150px 100px;margin: 0px 80px;}
+.home-see-all-result-link{text-align: center;margin: 65px 0px 0px;}
+.home-see-all-result-link a{color: #fff;background: #004812;padding: 10px 20px;text-transform: uppercase;font-family: 'poppinsregular';border: 2px solid #dbb00e;font-weight: 500;}
+.our-results-title-section .our-result-title-box{padding: 0px 0px 50px 0px;margin-bottom: 50px;}
+.casestudy-main .slick-prev {line-height: 0;font-size: 0;border: none;background: none;position: absolute;bottom: 0px;left: 47%;}
+.casestudy-main .slick-prev::before{content: '';background-image: url(/wp-content/uploads/2021/05/prev-arrow.png);background-repeat: no-repeat;width: 20px;height: 25px;position: absolute;bottom: -50px;}
+.casestudy-main .slick-next {line-height: 0;font-size: 0;border: none;background: none;position: absolute;bottom: 0px;right: 47%;}
+.casestudy-main .slick-next::before{content: '';background-image: url(/wp-content/uploads/2021/05/home-next-arrow.png);background-repeat: no-repeat;width: 20px;height: 25px;position: absolute;bottom: -50px;}
+.home-case-study-row .casestudy-wrp .casestudy-ineer-box .post-category{font-size: 20px;font-family: 'poppinsregular';font-weight: 500;color: #bc9a2e;margin-bottom: 15px;}
+.home-case-study-row .casestudy-wrp .casestudy-ineer-box .post-title{font-size: 30px;font-family: 'Playfair Display';color: #444444;margin-bottom: 40px;}
+.home-case-study-row .casestudy-wrp .casestudy-ineer-box .post-content{font-size: 23px;font-family: 'poppinsregular';color: #616368;line-height: 33px;}
+.home-why-choose-us-section{margin-top: 100px;position: relative;margin-bottom: 100px;}
+.why-choose-us-link a{color: #fff;background: #004812;padding: 15px 20px;text-transform: uppercase;font-family: 'poppinsregular' !important;border: 2px solid #dbb00e;font-weight: 500;}
+.why-choose-us-link{position: absolute;bottom: -33px;}
+.home-why-choose-us-left{box-shadow: 0px 0px 10px #c7c7c7;padding: 50px 190px 30px 65px;width: 65% !important;    background: #fff;z-index: 99!important;}
+.home-why-choose-us-left .home-who-we-are-content p{font-size: 18px;line-height: 32px;}
+.home-why-choose-us-right{border-radius: 0px;position: absolute !important;right: 0px;background: #004812;padding: 50px;color: #d9e3dc;width: 49% !important;margin-left: 0px !important;margin-top: 100px;z-index: 999!important;}
+.why-choose-us-list-title{font-size: 20px;font-family: 'poppinsregular';line-height: 30px;margin-bottom: 15px;}
+ul.why-choose-us-listing{list-style: none;}
+.why-choose-us-list-box::after{content: '';background: url(/wp-content/uploads/2021/05/why-chosse-us-list-after-bg.png);background-repeat: no-repeat;position: absolute;top: 0px;right: 0px;width: 135px;height: 100%;}
+.why-choose-us-listing li{font-size: 20px;margin-bottom: 10px;font-family: 'poppinsregular';    position: relative;}
+.why-choose-us-listing li:before{content: '';background-image: url(/wp-content/themes/foryourrights-child/images/trainagle.png);width: 20px;height: 20px;position: absolute;background-repeat: no-repeat;left: -20px;top: 8px;}
+.home-why-choose-us-section:before{content: '';background: url(/wp-content/uploads/2021/05/background-pattern.png);background-repeat: repeat-x;position: absolute;width: 430px;height: 500px;background-size: 139px;left: 0px;top: 47px;z-index: auto;}
+.home-why-choose-us-section:after{content: '';content: '';background: url(/wp-content/uploads/2021/05/background-pattern.png);background-repeat: repeat-x;position: absolute;width: 430px;height: 100%;background-size: 185px;right: -10px;top: 47px;z-index: auto;}
+.home-why-choose-us-section .entry-content-wrapper {background: url(/wp-content/uploads/2021/05/why-choose-us-dot-bg.png);width: 100%;height: 100%;}
+.home-why-choose-us-right:before{content: '';background: url(/wp-content/uploads/2021/05/why-choose-us-dot-bg.png);background-repeat: no-repeat;position: absolute;width: 100%;height: 200px;top: 0px;left: 0px;}
+.testimonial-wrp.slick-slide{display: block;padding: 30px 0px;}
+.play-video-button{position: absolute;top: 30px;left: 30px;width: 55px;height: 100%;z-index: 99;}
+.watch-intro-img {position: relative;}
+.watch-intro-img::before{
+	content: '';
+/* 	background: url(/wp-content/uploads/2021/05/watch-intro-img-before-bg.png); */
+	background-repeat: no-repeat;
+	width: 100%;height: 100%;left: 0px;top: 0px;z-index: 9;position: absolute;background-size: 305px;}
+.watch-intro-text{position: absolute;top: 75px;left: 26px;color: #fff;z-index: 99;font-size: 10px;font-family: 'poppinsregular';text-transform: uppercase;}
+.watch-intro-titles-box{position: absolute;bottom: 125px;left: 30px;z-index: 99;}
+.watch-intro-title{color: #ffc200;font-size: 36px;font-family: 'Playfair Display';font-weight: 600;margin-bottom: 20px;}
+.watch-intro-sub-title{color: #fff;font-family: 'Playfair Display';font-weight: 600;font-size: 36px;line-height: 40px;width: 300px;}
+@media screen and (max-width: 1440px){  
+    .home-why-choose-us-section:after{width: 125px;background-size: 182px;}
+}
+@media screen and (max-width: 1280px){
+    .home-who-we-are:after,.home-who-we-are:before{display: none;}
+    .home-testimonial-section:before{top: 216px;}
+    .home-testimonial-section:after{height: 323px;top: 132px;}
+    .home-why-choose-us-section:after {width: 60px;background-size: 200px;}
+    
+}
+@media screen and (max-width: 1200px) {
+
+#header_main #header_main_alternate .main_menu .menu .menu-item a{padding:0px 20px;}
+#homebanner .av-special-heading .av-special-heading-tag{padding:0px;}
+#homebanner .av-special-heading .av-special-heading-tag, #homebanner .av-special-heading .av-special-heading-tag .special_amp{font-size:68px;line-height:70px;}
+#homebanner .av-special-heading{margin-top:100px;}
+#wherestart .avia-image-container .av-image-caption-overlay-center p{font-size:24px;line-height:30px;}
+#top #foryourrightslist .flex_column.av_one_fourth{width:50%;}
+#homeemergency .catastrophicinjury .av-special-heading .av-special-heading-tag, #homeemergency .liabilityLawyers .av-special-heading .av-special-heading-tag{font-size:26px;line-height:32px;}
+#footer .flex_column .widget_nav_menu #menu-footer-menu .menu-item{margin:0px 12px;}
+#footer .flex_column .widget_media_gallery #gallery-1 .gallery-item{margin:0px 10px;}
+#top .greyText .av-special-heading .av-special-heading-tag{font-size:28px;line-height:36px;}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content ul li{width:33%;}
+.testimonial_group .full-testimonial{padding:30px 20px 20px 20px !important;}
+
+#top .bizinsHeader .avia-icon-list li{margin-left: 0px;margin-right: 30px;}
+#top .bizinsHeader .avia-icon-list li .iconlist_content p{font-size: 42px;}
+#top .bizinsuranceBanner .flex_column.av_two_fifth{padding: 30px;}
+#top .bizinsuranceBanner .flex_column.av_two_fifth h3.av-special-heading-tag{font-size: 36px;line-height: 32px;}
+#top .bizinsuranceBanner h2.av-special-heading-tag{font-size: 72px;line-height: 60px;}
+#top .claimDenied .av-special-heading-tag{font-size: 52px;line-height: 42px;}
+#top .bizGetaFree h2.av-special-heading-tag{padding: 0px 0px 10px 0px;font-size: 52px;line-height: 42px;}
+#top .bizGetaFree .flex_column.av_two_fifth{padding: 30px;}
+#top .bizGetaFree .flex_column.av_two_fifth h5.av-special-heading-tag{font-size: 36px;line-height: 32px;}
+#top .bizinsuranceList .flex_column.av_one_fourth{vertical-align: top;}
+#top .bizinsuranceList .avia-button{width: 150px;}
+#top .bizinsuranceFooter .footerPhone::after{width: 145px;}
+
+.recent-case-result-sub-title{font-size: 20px;padding-right: 50px;}
+.recent-case-result-sub-contant{font-size: 24px;line-height: 33px;}
+.home-awards-list-row .widget_media_gallery #gallery-1 .gallery-item img{height: 80px;}
+.play-video-button{top: 20px;width: 30px;}
+.watch-intro-text{top: 35px;left: 15px;}
+.watch-intro-sub-title{font-size: 28px;line-height: 38px;width: 240px;}
+.home-testimonial-sub-heading{margin-bottom: 100px;}
+.home-testimonial-section:before {top: 196px;}
+.home-testimonial-section:after {height: 250px;top: 182px;}
+.home-dont-get-stuck-row .entry-content-wrapper{margin: 0px 0px;padding: 25px 25px !important}
+.home-dont-get-stuck-row {margin-bottom: 70px;}
+.home-practice-areas-title{font-size: 18px;}
+.home-attorneys-img {padding: 0px 10px;}
+.home-latest-news-section .post-title{padding: 20px 20px 0px 20px;}
+.home-latest-news-section .post-content{    padding: 0px 20px 20px 20px;}
+.home-dont-get-stuck-row .entry-content-wrapper::before {left: -27px;background-size: 50px;top: 70px;}
+.dont-get-stucks-contact-link a{    padding: 10px 70px;}
+}
+
+@media screen and (max-width: 1023px) {
+
+#header_meta{position:relative;padding:15px 0px;border-bottom:solid 1px #cccccc;top:0px;}
+.html_header_top.html_logo_center #header_main .logo{left:0px;-webkit-transform:inherit;-ms-transform:inherit;transform:inherit;}
+#top #homebanner .av-section-video-bg{bottom:220px;}
+#homebanner .av-special-heading .av-special-heading-tag, #homebanner .av-special-heading .av-special-heading-tag .special_amp{font-size:48px;line-height:52px;margin-bottom:20px;}
+#homebanner .av-subheading p{font-size:24px;line-height:30px;}
+#homebanner .av-special-heading{}
+#homebanner .bannerLogo{margin-bottom:400px;}
+#homebanner .container{height:auto;}
+#top #homebanner .av-section-color-overlay-wrap::before{background:#d39c0a;height:285px;}
+#homebanner .bannerBottlom .iconbox{width:100%;margin-bottom:15px;}
+#homebanner .bannerBottlom .iconbox .iconbox_icon{float:left;}
+#top #interestingfacts .avia-content-slider-inner h6{font-size:22px;}
+#top #interestingfacts .avia-content-slider-inner p{font-size:16px;line-height:22px;}
+#wherestart .avia-image-container .av-image-caption-overlay-center p{font-size:16px;line-height:24px;}
+#wherestart .av-special-heading .av-special-heading-tag{font-size:32px;line-height:40px;margin-bottom:10px;}
+#wherestart .av-special-heading .av-subheading{padding:0px 100px;}
+#footer .flex_column .widget_media_gallery #gallery-1 .gallery-item{margin:0px 6px;}
+#footer .flex_column .widget_media_gallery #gallery-1 .gallery-item img{height:75px;}
+#homeemergency .avia-image-container .avia-image-container-inner, #homeemergency .avia-image-container .avia-image-container-inner img{width:100%;}
+#top #interestingfacts .factSlider.avia-content-slider{margin-top:10px;padding-bottom:60px;}
+#footer .flex_column .widget_media_gallery #gallery-1{margin-bottom:40px;}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content ul li{width:48%;}
+#top #practiceareacontact .avia-image-container .avia-image-container-inner, #top #practiceareacontact .avia-image-container .avia-image-container-inner img{width:100%;}
+#resultlist .av_promobox .avia-button{width:215px;padding-left:15px;padding-right:15px;}
+.testimonial_group .full-testimonial .rr_review_text .read_more, .testimonial_group .full-testimonial .rr_review_text .show_less{float:left;width:100%;bottom:0px;margin:10px 0px;}
+.full-testimonial .review-head .review-info .rr_date{width:100%;text-align:center;}
+#top .partnerslist .no_margin.av_one_fourth{vertical-align:top;}
+#top .stepForm .gf_page_steps #gf_step_7_5 .gf_step_label{font-size:12px;}
+
+#top .bizinsHeader .flex_column.av_three_fifth{padding: 15px 10px;}
+#top .bizinsHeader .flex_column.av_three_fifth::before {background-size: 100% 100%;width: 90px;}
+#top .bizinsuranceBanner h2.av-special-heading-tag{text-align: center;}
+#top .bizinsuranceBanner .flex_column.av_three_fifth .avia_textblock{text-align: center;}
+#top .bizGetaFree h2.av-special-heading-tag{font-size: 42px;line-height: 36px;}
+#top .bizGetaFree .wpcf7-form ul li.submitBtn{margin-bottom: 0px;}
+#top .bizinsuranceList .flex_column.av_one_fourth{float: left;width: 50%;}
+#top .bizinsuranceFooter .container{max-width: 100%;padding: 0px;}
+#top .bizinsuranceFooter .footerPhone{background-size: cover;}
+#top .bizinsuranceFooter .footerPhone::after {display: none;}
+#top .bizinsuranceFooter .copyright{text-align: center;padding: 30px 0px;}
+
+#top .lawyerReviews .avia-testimonial-wrapper{display: block;float: left;width: 100%;}
+#top .lawyerReviews .avia-testimonial-row{display: block;}
+#top .lawyerReviews .avia-testimonial{float: left;width: 100%;padding: 10px 10px 30px 10px;}
+#top .insClaims .avia_textblock iframe{width: 100% !important;height: 350px !important;}
+
+.main-banner-title h1{width: 320px;font-size: 30px;line-height: 40px;margin-bottom: 25px;}
+.main-slider-button a{font-size: 18px;}
+.main-slider-award-img{width: 125px;}
+.home-recent-case-col{padding: 25px 15px;}
+.recent-case-result-sub-title {font-size: 18px;padding-right: 0px;}
+.recent-case-result-sub-contant {font-size: 20px;line-height: 28px;}
+.home-awards-list-row .widget_media_gallery #gallery-1 .gallery-item img,.home-awards-list-row .widget_media_gallery #gallery-1 .gallery-item {height: 50px;}
+.home-who-we-are-left,.home-who-we-are-right,.home-why-choose-us-left,.home-why-choose-us-right,.home-get-in-touch-col,.home-get-in-touch-form-col{width: 100% !important;}
+.home-who-we-are-right{margin-left: 0px;margin-top: 50px;}
+.play-video-button {top: 30px;width: 50px;}
+.watch-intro-text {top: 70px;left: 25px;}
+.home-testimonial-section:before,.home-testimonial-section:after,.testimonial-left:before,.home-why-choose-us-section:before,
+.home-why-choose-us-section:after{display: none;}
+.home-testimonial-sub-heading {margin-bottom: 155px;}
+.testimonial-left{padding: 0px 15px 15px 15px;}
+.home-testimonial-section{padding-bottom: 130px;}
+.home-dont-get-stuck-title h3{font-size: 20px;line-height: 28px;}
+.dont-get-stucks-contact-link a{padding: 10px 40px;font-size: 18px;}
+.dont-get-stucks-contact-detils{line-height: 23px;    font-size: 16px;}
+.home-dont-get-stuck-row {margin-bottom: 0px;}
+.home-practice-area-box-wrap{width: 50% !important;}
+.home-case-study-row{padding: 70px 30px 100px;}
+.home-attorneys-name p{    font-size: 10px;}
+.home-why-choose-us-section{margin-top: 0px;margin-bottom: 30px;}
+.home-why-choose-us-right{position: relative !important;}
+.home-why-choose-us-left{    padding: 30px;}
+.home-why-choose-us-section .entry-content-wrapper{background: none;}
+.home-latest-news-section .post-main {display: block;}
+.home-latest-news-section .post-wrp{width: 50%;float: left;margin-bottom: 30px;}
+.home-get-in-touch-form-col{margin-left: 0px !important;}
+.page-template-home-new .google-map.row{display: block;}
+.page-template-home-new .google-map.row .av_one_third{width: 100%;height: 300px;}
+.home-news-col{width: 47% !important;float: left !important;margin: 10px !important;}
+.home-latest-news-section .entry-content-wrapper .flex_column_table {display: block !important;}
+.home-who-we-are .entry-content-wrapper {display: block;align-items: center;}
+.home-who-we-are-right{margin-left: 0px !important;}
+.home-news-col{width: 100% !important;float: none !important;margin: 10px 0px !important;}
+}
+
+@media screen and (max-width: 767px) {
+
+#header_main .av-logo-container img{max-height:100px;}
+#top #wrap_all #homebanner .bannerBottlom{margin-bottom:0px;}
+#homebanner .av-special-heading .av-special-heading-tag, #homebanner .av-special-heading .av-special-heading-tag .special_amp{font-size:42px;line-height:48px;}
+#homebanner .bannerLogo{margin-bottom:350px;}
+#top #wrap_all #wherestart .flex_column{margin-bottom:0px;}
+#wherestart .avia-image-container .avia-image-container-inner, #wherestart .avia-image-container .avia_image{height:100px;}
+#top #foryourrightslist .av-special-heading h6.av-special-heading-tag{font-size:22px;}
+#top #wrap_all #footer .container{max-width:100%;width:100%;}
+#footer .flex_column .widget_media_gallery #gallery-1 .gallery-item{margin:6px 6px;height:80px;}
+#footer .flex_column .widget_media_gallery #gallery-1 .gallery-item img{height:80px;}
+#footer .flex_column.av_one_third.first{padding:40px 0px;}
+#footer .flex_column.av_one_third.first .textwidget{width:100%;}
+#footer .flex_column.av_one_third.first::after{background:none;display: none;}
+#footer .flex_column .widget_media_gallery #gallery-1{margin:20px 0px 0px 0px;}
+#top #wrap_all #wherestart .container{max-width:100%;width:100%;}
+#footer .flex_column .widget_nav_menu #menu-footer-menu{margin-bottom:10px;}
+#wherestart .avia-image-container .av-image-caption-overlay-center p{font-size:18px;}
+#top #header_main .av-main-nav .menu-item-avia-special .is-active{position:fixed;top:0px;right:20px;}
+#top #header_main #av-burger-menu-ul{padding:60px 0px !important;}
+.togglecontainer .av_toggle_section .toggle_wrap .toggle_content ul li{width:100%;}
+.headerTitle h1{font-size:48px;}
+.headerTitle h1 small{font-size:26px;line-height:32px;}
+#resultlist .av_promobox .avia-button{margin-top:20px;margin-bottom:5px;width:100%;padding-top:15px;}
+.pageTopContent .avia_textblock h2, .pageTopContent .avia_textblock h3{font-size:30px;line-height:36px;}
+.testimonial_group .full-testimonial{width:100% !important;margin:25px 0px !important;}
+#top #wrap_all .partnerslist .no_margin.av_one_fourth{margin-bottom:0px;}
+#top .stepForm .gf_page_steps .gf_step{width:100%;text-align:left;border-bottom:solid 1px #004812;}
+#top .stepForm .gf_page_steps .gf_step::after, #top .stepForm .gf_page_steps .gf_step::before{display:none;}
+#top .stepForm .gf_page_steps .gf_step .gf_step_label{display:inline-block;margin-top:0px;vertical-align:middle;margin-left:15px;}
+#top .stepForm .gf_page_steps #gf_step_7_5 .gf_step_label, #top .stepForm .gf_page_steps .gf_step .gf_step_label{font-size:15px;}
+#top .topUpdateNotice{padding: 10px 70px 10px 15px;font-size: 14px;line-height: 18px;}
+
+#top .bizinsHeader::after, #top .bizinsHeader .flex_column.av_three_fifth::before {display: none;}
+#top .bizinsHeader{position: relative;background: #232323;}
+.responsive #top #wrap_all .bizinsHeader .container{width: 100%;max-width: 100%;}
+#top .bizinsHeader .avia-image-container.avia-align-left{margin: 0px;width: 100%;text-align: center;}
+#top .bizinsHeader .flex_column.av_two_fifth .avia_image{display: inline-block;margin: 25px 0px;}
+.responsive #top #wrap_all .bizinsHeader .flex_column{margin: 0px;}
+#top .bizinsHeader .avia-icon-list li{float: none;display: inline-block;margin: 0px 15px;}
+#top .bizinsuranceBanner .entry-content-wrapper{margin: 20px 0px 40px 0px;}
+
+#top .userway.userway_p1{left: 10px;bottom: 20px;top: inherit;}
+
+}
+
+
+@media screen and (max-width: 639px) {
+
+#header_meta .phone-info span .leftPhone, #header_meta .phone-info span .rightPhone{width:100%;}
+#header_meta .phone-info span .leftPhone{margin-bottom:15px;}
+#homeabout .personalinjury .av-special-heading .av-special-heading-tag{font-size:24px;line-height:30px;}
+#wherestart .av-special-heading .av-subheading{padding:0px 20px;}
+#wherestart .av-special-heading .av-special-heading-tag{font-size:26px;}
+#top #foryourrightslist .flex_column.av_one_fourth{width:100%;}
+.togglecontainer .av_toggle_section .toggler{font-size:18px;line-height:22px;padding-left:15px;}
+.pageTopContent .avia_textblock h2, .pageTopContent .avia_textblock h3{font-size:24px;line-height:30px;}
+#top .partnerslist .lawyersContent h6{font-size:28px;line-height:36px;}
+#top .stepForm .stepBox{padding:25px;}
+
+#top .bizinsHeader .avia-icon-list li{margin: 5px 0px;text-align: center;width: 100%;}
+#top .bizinsuranceBanner h2.av-special-heading-tag{font-size: 60px;line-height: 52px;}
+#top .bizinsuranceBanner .flex_column.av_three_fifth .avia_textblock{font-size: 22px;}
+#top .claimDenied .av-special-heading-tag{font-size: 42px;line-height: 46px;}
+#top .bizinsuranceList h3.av-special-heading-tag{padding: 0px 0px 10px 0px;font-size: 42px;line-height: 44px;width: 100%;}
+#top .bizinsuranceFooter .footerPhone{font-size: 48px;line-height: 52px;}
+#top .insClaims .avia_textblock iframe{width: 100% !important;height: 250px !important;}
+	
+}
+
+@media screen and (max-width: 479px) {
+
+#header_main .av-logo-container img{max-height:75px;}
+#homebanner .av-special-heading .av-special-heading-tag, #homebanner .av-special-heading .av-special-heading-tag .special_amp{font-size:32px;line-height:40px;}
+#homebanner .bannerBottlom .iconbox .iconbox_content_title{margin-top:0px;}
+#top #homebanner .av-section-color-overlay-wrap::before{height:300px;}
+#homebanner .bannerBottlom .iconbox .iconbox_content_title{font-size:20px;}
+#homebanner .bannerBottlom .iconbox .iconbox_content_container p{line-height:20px;}
+#homeabout .personalinjury, #boardlawyers .trialContent, #homeemergency .catastrophicinjury, #homeemergency .liabilityLawyers{padding:25px;}
+#top #wrap_all #interestingfacts .slide-entry{width:100%;margin:0px 0px 25px 0px;}
+#wherestart .av-special-heading .av-special-heading-tag{line-height:28px;margin-bottom:20px;}
+#boardlawyers .trialContent .av-special-heading .av-special-heading-tag{font-size:24px;line-height:32px;}
+#boardlawyers .trialContent .avia-button-wrap{width:100%;}
+#boardlawyers .trialContent .avia-button{padding:12px;}
+#homeemergency .catastrophicinjury .av-special-heading .av-special-heading-tag, #homeemergency .liabilityLawyers .av-special-heading .av-special-heading-tag{font-size:24px;line-height:30px;}
+#top #wrap_all #socket .social_bookmarks li{margin:0px;}
+#top #socket .copyright{margin-bottom:15px;}
+#footer .flex_column .widget_media_gallery #gallery-1 .gallery-item img{height:70px;}
+.headerTitle h1{font-size:40px;line-height:48px;}
+.headerTitle h1 small{font-size:22px;}
+#top .greyText, #top .yellowText{padding:20px 25px;}
+.togglecontainer .av_toggle_section .toggler{font-size:16px;line-height:22px;}
+#top .yellowText .avia_textblock h3, #top .yellowText .avia_textblock h4{font-size:26px;line-height:32px;}
+.headerTitle{padding:80px 0px;}
+.headerTitle h1{margin-bottom:0px;}
+#top .partnerslist .lawyersContent h6{font-size:24px;line-height:30px;}
+#top .partnerslist .lawyersContent{padding:20px 25px;}
+#top .stepForm .stepBox input, #top .stepForm .stepBox textarea{padding:12px;}
+#top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_next_button, #top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_previous_button, #top .stepForm .stepBox .gform_wrapper .gform_page_footer .gform_button{line-height:20px;}
+#top .stepForm h3{font-size:32px;line-height:38px;}
+
+#top .bizinsHeader .flex_column.av_two_fifth img.avia_image{max-width: 75%;}
+#top .bizinsuranceBanner h2.av-special-heading-tag{font-size: 40px;line-height: 32px;}
+#top .bizinsuranceBanner .flex_column.av_three_fifth .avia_textblock{font-size: 20px;}
+#top .bizinsuranceBanner .flex_column.av_two_fifth h3.av-special-heading-tag{font-size: 28px;line-height: 28px;}
+#top .bizinsuranceBanner .wpcf7-form ul li.submitBtn input{font-size: 16px;}
+#top .claimDenied .av-special-heading-tag{font-size: 36px;line-height: 32px;}
+#top .claimDenied .avia-button-wrap, #top .claimDenied .avia-button{width: 100%;display: block;}
+#top .bizGetaFree h2.av-special-heading-tag{font-size: 32px;line-height: 26px;}
+#top .bizGetaFree .flex_column.av_two_fifth h5.av-special-heading-tag{font-size: 28px;line-height: 28px;}
+#top .bizGetaFree .wpcf7-form ul li.submitBtn input{font-size: 16px;}
+#top .bizinsuranceList h3.av-special-heading-tag{font-size: 30px;line-height: 30px;}
+#top .bizinsuranceFooter .footerPhone{font-size: 42px;line-height: 44px;}
+
+#top .lawyerReviews .avia-testimonial_inner{padding: 100px 20px 20px 20px;}
+#top .lawyerReviews .avia-testimonial_inner .avia-testimonial-image{top: 40px;}
+#top .lawyerReviews .avia-testimonial_inner .avia-testimonial-subtitle{left: 20px;top: 65px;}
+#top .insClaims .avia_textblock iframe{width: 100% !important;height: 200px !important;}	
+
+.home-recent-case-col:first-child{border-left: none !important;margin-top: 30px !important;}
+.home-recent-case-col{margin-bottom: 0px;    border-right: none !important;border-left: none !important;}
+.home-recent-case-col:last-child {border-right: none !important;}
+.home-awards-list-row .widget_media_gallery #gallery-1 .gallery-item img, .home-awards-list-row .widget_media_gallery #gallery-1 .gallery-item {height: 55px;margin-bottom: 15px;}
+.home-who-we-are-title h2{font-size: 30px;}
+.home-who-we-are-content p{font-size: 18px;line-height: 28px;}
+.play-video-button {top: 15px;width: 30px;}
+.watch-intro-text {top: 30px;left: 15px;}
+.watch-intro-titles-box{bottom: 100px;left: 20px;}
+.watch-intro-title{margin-bottom: 0px !important;font-size: 23px;}
+.watch-intro-sub-title{font-size: 22px;line-height: 28px;width: 190px;}
+.home-testimonial-title h2,.home-practice-area-heading h2{font-size: 40px;}
+.home-dont-get-stuck-row {margin-bottom: 70px;}
+.home-testimonial-sub-heading,.home-practice-area-sub-heading{font-size: 16px;}
+.home-practice-area-sub-heading:after{left: 34%;bottom: -20px;}
+.home-practice-area-row {    margin-bottom: 50px !important;}
+.home-practice-area-box-wrap{    width: 100% !important;min-height: 350px !important;}
+.our-results-title-section .our-result-title-box{    margin-bottom: 25px;}
+.home-case-study-row .casestudy-wrp .casestudy-ineer-box .post-title{font-size: 20px;margin-bottom: 20px;}
+.home-case-study-row .casestudy-wrp .casestudy-ineer-box .post-content{font-size: 15px;line-height: 23px;}
+.casestudy-main .slick-prev::before{left: -10px;}
+.casestudy-main .slick-next::before{right: -20px;}
+.home-attorneys-img img {height: auto;width: auto;padding: 0px;}
+.home-attorneys-name p {font-size: 16px;}
+.home-who-we-are-title{font-size: 18px;margin-bottom: 10px;}
+.home-who-we-are-title h2{font-size: 24px;}
+.home-why-choose-us-left .home-who-we-are-content p {font-size: 16px;line-height: 27px;}
+.home-why-choose-us-right {margin-top: 50px !important;padding: 30px;}
+.why-choose-us-list-box::after{display: none;}
+.home-latest-news-section .post-wrp{width: 100%;}
+.home-get-in-touch-section {padding: 0px 0px;}
+.testimonial-left{min-height: 250px;bottom: 0px;position: relative;width: 100%;}
+.testimonial-right{width: 100%;}
+}
+
+#top .avia-smallarrow-slider .avia-slideshow-arrows {
+    left: 0px !important;
+    top: 0px !important;
+}

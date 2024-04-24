@@ -1,0 +1,317 @@
+ 
+
+
+
+ #contact-buttons-bar {
+
+
+
+  position: fixed;
+
+
+
+  top: 400px;
+
+
+
+  left: -50px;
+
+
+
+  width: 50px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#contact-buttons-bar.slide-on-scroll {
+
+
+
+  position: absolute;
+
+
+
+  z-index: 9;
+
+
+
+}
+
+
+
+
+
+
+
+.contact-button-link  {
+
+
+
+  display: block;
+
+
+
+  width: 60px;
+
+
+
+  height: 60px;
+
+
+
+  padding: 0;
+
+
+
+  margin-bottom: 1px;
+
+
+
+  text-align: center;
+
+
+
+  line-height: 60px;
+
+
+
+  font-size:42px;
+
+
+
+  background: #004812;
+
+
+
+  color: #fff;
+
+
+
+  position: relative;
+
+
+
+  border:#bbbbbb solid 1px;
+
+
+
+  border-left:0px;
+
+
+
+  left: 0;
+
+
+
+  
+
+
+
+  -webkit-box-sizing: border-box;
+
+
+
+     -moz-box-sizing: border-box;
+
+
+
+          box-sizing: border-box;
+
+
+
+  
+
+
+
+  -webkit-transition: all 250ms;
+
+
+
+     -moz-transition: all 250ms;
+
+
+
+          transition: all 250ms;
+
+
+
+}
+
+
+
+.contact-button-link:hover,
+
+
+
+.contact-button-link:focus,
+
+
+
+.contact-button-link:active {
+
+
+
+  color: #fff;
+
+
+
+  padding-left: 20px;
+
+
+
+  width: 190px;
+
+
+
+}
+
+
+
+.contact-button-link.cb-hidden {
+
+
+
+  left: -50px;
+
+
+
+}
+
+
+
+.contact-button-link.facebook {
+
+
+
+  background: #3b5998;
+
+
+
+}
+
+
+
+.contact-button-link.linkedin {
+
+
+
+  background: #0077b5;
+
+
+
+}
+
+
+
+.contact-button-link.gplus {
+
+
+
+  background: #db4437;
+
+
+
+}
+
+
+
+
+
+
+
+.contact-button-link.separated {
+
+
+
+ /* margin-top: 1em;*/
+
+
+
+}
+
+
+
+
+
+
+
+.show-hide-contact-bar,
+
+
+
+.contact-button-link.show-hide-contact-bar:focus,
+
+
+
+.contact-button-link.show-hide-contact-bar:active {
+
+
+
+  background: transparent;
+
+
+
+  color: #000;
+
+
+
+  border: 0;
+
+
+
+  outline: 0;
+
+
+
+  padding: 0;
+
+
+
+  width: 50px;
+
+
+
+}
+
+
+
+.contact-button-link.show-hide-contact-bar:hover {
+
+
+
+  color: #000;
+
+
+
+  background: #ccc;
+
+
+
+  padding: 0;
+
+
+
+  width: 50px;
+
+
+
+}
+
+.contact-button-link:hover span, .contact-button-link:focus span, .contact-button-link:active span{ transform: translate(50px, 1px) !important;}
+
+.contact-button-link:hover span div, .contact-button-link:focus span div, .contact-button-link:active span div{left: -175px; width:208px; position: absolute; top: 8px;}
+
+.contact-button-link .fa-phone::before {content: "";}
+
+.contact-button-link .fa-phone::after {content: "\f095";}
